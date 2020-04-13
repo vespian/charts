@@ -60,11 +60,11 @@ subjects:
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: istio-security-post-install-{{ .Values.global.tag | printf "%v" | trunc 32  }}
+  name: istio-security-post-install-{{ .Values.global.tag | printf "%v" | trunc 32 | trimSuffix "-" }}
   namespace: {{ .Release.Namespace }}
   annotations:
     "helm.sh/hook": post-install,post-upgrade
-    "helm.sh/hook-delete-policy": hook-succeeded,before-hook-creation
+    "helm.sh/hook-delete-policy": hook-succeeded
   labels:
     app: {{ template "security.name" . }}
     chart: {{ template "security.chart" . }}

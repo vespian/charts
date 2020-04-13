@@ -1,9 +1,11 @@
 rewriteAppHTTPProbe: {{ valueOrDefault .Values.sidecarInjectorWebhook.rewriteAppHTTPProbe false }}
-{{- if or (not .Values.istio_cni.enabled) .Values.global.proxy.enableCoreDump }}
 initContainers:
 {{ if ne (annotation .ObjectMeta `sidecar.istio.io/interceptionMode` .ProxyConfig.InterceptionMode) `NONE` }}
-{{- if not .Values.istio_cni.enabled }}
+{{ if .Values.istio_cni.enabled -}}
+- name: istio-validation
+{{ else -}}
 - name: istio-init
+{{ end -}}
 {{- if contains "/" .Values.global.proxy_init.image }}
   image: "{{ .Values.global.proxy_init.image }}"
 {{- else }}
@@ -27,7 +29,7 @@ initContainers:
   - "{{ annotation .ObjectMeta `traffic.sidecar.istio.io/includeInboundPorts` `*` }}"
   - "-d"
   - "{{ excludeInboundPort (annotation .ObjectMeta `status.sidecar.istio.io/port` .Values.global.proxy.statusPort) (annotation .ObjectMeta `traffic.sidecar.istio.io/excludeInboundPorts` .Values.global.proxy.excludeInboundPorts) }}"
-  {{ if or (isset .ObjectMeta.Annotations `traffic.sidecar.istio.io/excludeOutboundPorts`) (ne .Values.global.proxy.excludeOutboundPorts "") -}}
+  {{ if or (isset .ObjectMeta.Annotations `traffic.sidecar.istio.io/excludeOutboundPorts`) (ne (valueOrDefault .Values.global.proxy.excludeOutboundPorts "") "") -}}
   - "-o"
   - "{{ annotation .ObjectMeta `traffic.sidecar.istio.io/excludeOutboundPorts` .Values.global.proxy.excludeOutboundPorts }}"
   {{ end -}}
@@ -35,30 +37,41 @@ initContainers:
   - "-k"
   - "{{ index .ObjectMeta.Annotations `traffic.sidecar.istio.io/kubevirtInterfaces` }}"
   {{ end -}}
-  imagePullPolicy: "{{ .Values.global.imagePullPolicy }}"
-{{- if .Values.global.proxy.init.resources }}
+  {{ if .Values.istio_cni.enabled -}}
+  - "--run-validation"
+  - "--skip-rule-apply"
+  {{ end -}}
+  imagePullPolicy: "{{ valueOrDefault .Values.global.imagePullPolicy `Always` }}"
+{{- if .Values.global.proxy_init.resources }}
   resources:
-    {{ toYaml .Values.global.proxy.init.resources | indent 4 }}
+    {{ toYaml .Values.global.proxy_init.resources | indent 4 }}
 {{- else }}
   resources: {}
 {{- end }}
   securityContext:
     allowPrivilegeEscalation: {{ .Values.global.proxy.privileged }}
+    privileged: {{ .Values.global.proxy.privileged }}
     capabilities:
+  {{- if not .Values.istio_cni.enabled }}
       add:
       - NET_ADMIN
       - NET_RAW
+  {{- end }}
       drop:
       - ALL
-    privileged: {{ .Values.global.proxy.privileged }}
     readOnlyRootFilesystem: false
+  {{- if not .Values.istio_cni.enabled }}
     runAsGroup: 0
     runAsNonRoot: false
     runAsUser: 0
+  {{- else }}
+    runAsGroup: 1337
+    runAsUser: 1337
+    runAsNonRoot: true
+  {{- end }}
   restartPolicy: Always
-{{- end }}
 {{  end -}}
-{{- if eq .Values.global.proxy.enableCoreDump true }}
+{{- if eq (annotation .ObjectMeta `sidecar.istio.io/enableCoreDump` .Values.global.proxy.enableCoreDump) "true" }}
 - name: enable-core-dump
   args:
   - -c
@@ -81,7 +94,6 @@ initContainers:
     runAsNonRoot: false
     runAsUser: 0
 {{ end }}
-{{- end }}
 containers:
 - name: istio-proxy
 {{- if contains "/" (annotation .ObjectMeta `sidecar.istio.io/proxyImage` .Values.global.proxy.image) }}
@@ -120,8 +132,10 @@ containers:
   - --lightstepAccessToken
   - "{{ .ProxyConfig.GetTracing.GetLightstep.GetAccessToken }}"
   - --lightstepSecure={{ .ProxyConfig.GetTracing.GetLightstep.GetSecure }}
+{{- if .ProxyConfig.GetTracing.GetLightstep.GetSecure }}
   - --lightstepCacertPath
   - "{{ .ProxyConfig.GetTracing.GetLightstep.GetCacertPath }}"
+{{- end }}
 {{- else if eq .Values.global.proxy.tracer "zipkin" }}
   - --zipkinAddress
   - "{{ .ProxyConfig.GetTracing.GetZipkin.GetAddress }}"
@@ -134,6 +148,9 @@ containers:
 {{- end}}
 {{- if .Values.global.proxy.componentLogLevel }}
   - --proxyComponentLogLevel={{ .Values.global.proxy.componentLogLevel }}
+{{- end}}
+{{- if .Values.global.proxy.outlierLogPath }}
+  - --outlierLogPath={{ .Values.global.proxy.outlierLogPath }}
 {{- end}}
   - --dnsRefreshRate
   - {{ .Values.global.proxy.dnsRefreshRate }}
@@ -162,8 +179,6 @@ containers:
 {{- if (ne (annotation .ObjectMeta "status.sidecar.istio.io/port" (valueOrDefault .Values.global.proxy.statusPort 0 )) `0`) }}
   - --statusPort
   - "{{ annotation .ObjectMeta `status.sidecar.istio.io/port` .Values.global.proxy.statusPort }}"
-  - --applicationPorts
-  - "{{ annotation .ObjectMeta `readiness.status.sidecar.istio.io/applicationPorts` (applicationPorts .Spec.Containers) }}"
 {{- end }}
 {{- if .Values.global.trustDomain }}
   - --trust-domain={{ .Values.global.trustDomain }}
@@ -232,8 +247,6 @@ containers:
     value: {{ $.Values.global.sds.enabled }}
   - name: ISTIO_META_INTERCEPTION_MODE
     value: "{{ or (index .ObjectMeta.Annotations `sidecar.istio.io/interceptionMode`) .ProxyConfig.InterceptionMode.String }}"
-  - name: ISTIO_META_INCLUDE_INBOUND_PORTS
-    value: "{{ annotation .ObjectMeta `traffic.sidecar.istio.io/includeInboundPorts` (applicationPorts .Spec.Containers) }}"
   {{- if .Values.global.network }}
   - name: ISTIO_META_NETWORK
     value: "{{ .Values.global.network }}"
@@ -278,15 +291,15 @@ containers:
     value: "{{ .ProxyConfig.GetTracing.GetStackdriver.GetDebug }}"
   {{- if .ProxyConfig.GetTracing.GetStackdriver.GetMaxNumberOfAnnotations }}
   - name: STACKDRIVER_TRACING_MAX_NUMBER_OF_ANNOTATIONS
-    value: "{{ .ProxyConfig.GetTracing.GetStackdriver.GetMaxNumberOfAnnotations }}"
+    value: "{{ .ProxyConfig.GetTracing.GetStackdriver.GetMaxNumberOfAnnotations.Value }}"
   {{- end }}
   {{- if .ProxyConfig.GetTracing.GetStackdriver.GetMaxNumberOfAttributes }}
   - name: STACKDRIVER_TRACING_MAX_NUMBER_OF_ATTRIBUTES
-    value: "{{ .ProxyConfig.GetTracing.GetStackdriver.GetMaxNumberOfAttributes }}"
+    value: "{{ .ProxyConfig.GetTracing.GetStackdriver.GetMaxNumberOfAttributes.Value }}"
   {{- end }}
   {{- if .ProxyConfig.GetTracing.GetStackdriver.GetMaxNumberOfMessageEvents }}
   - name: STACKDRIVER_TRACING_MAX_NUMBER_OF_MESSAGE_EVENTS
-    value: "{{ .ProxyConfig.GetTracing.GetStackdriver.GetMaxNumberOfMessageEvents }}"
+    value: "{{ .ProxyConfig.GetTracing.GetStackdriver.GetMaxNumberOfMessageEvents.Value }}"
   {{- end }}
   {{- end }}
   imagePullPolicy: {{ .Values.global.imagePullPolicy }}
@@ -309,7 +322,7 @@ containers:
       drop:
       - ALL
     privileged: {{ .Values.global.proxy.privileged }}
-    readOnlyRootFilesystem: {{ not .Values.global.proxy.enableCoreDump }}
+    readOnlyRootFilesystem: {{ ne (annotation .ObjectMeta `sidecar.istio.io/enableCoreDump` .Values.global.proxy.enableCoreDump) "true" }}
     runAsGroup: 1337
     {{ if eq (annotation .ObjectMeta `sidecar.istio.io/interceptionMode` .ProxyConfig.InterceptionMode) `TPROXY` -}}
     runAsNonRoot: false
