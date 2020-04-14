@@ -3,9 +3,9 @@ entries:
   cert-manager-setup:
   - apiVersion: v1
     appVersion: 0.10.1
-    created: 2020-04-14T10:27:07.40868686Z
+    created: "2020-04-14T15:29:10.220712137+02:00"
     description: Install cert-manager and optionally add a ClusterIssuer
-    digest: f6aafdc8cf86eae4af21210572ec318bb7123526b639c142f2eb7af467d4a500
+    digest: 565ec1de20f0eb16e6e11640f4c68380bc0079f95ca20aabbc2dc65f58e230e1
     engine: gotpl
     home: https://github.com/mesosphere/charts
     keywords:
@@ -20,11 +20,11 @@ entries:
     - https://github.com/jetstack/cert-manager
     - https://github.com/jetstack/cert-manager/tree/master/deploy/charts/cert-manager
     urls:
-    - https://mesosphere.github.io/charts/staging/cert-manager-setup-0.1.10.tgz
+    - https://vespian.github.io/charts/staging/cert-manager-setup-0.1.10.tgz
     version: 0.1.10
   - apiVersion: v1
     appVersion: 0.10.1
-    created: 2020-04-14T10:27:07.430791321Z
+    created: "2020-04-14T15:29:10.248944336+02:00"
     description: Install cert-manager and optionally add a ClusterIssuer
     digest: c8935b57e2cdc09a8e714c9e4fd9bf3ac09e3baf70d9a181f146d99e5ed0d5a4
     engine: gotpl
@@ -41,11 +41,11 @@ entries:
     - https://github.com/jetstack/cert-manager
     - https://github.com/jetstack/cert-manager/tree/master/deploy/charts/cert-manager
     urls:
-    - https://mesosphere.github.io/charts/staging/cert-manager-setup-0.1.9.tgz
+    - https://vespian.github.io/charts/staging/cert-manager-setup-0.1.9.tgz
     version: 0.1.9
   - apiVersion: v1
     appVersion: 0.10.1
-    created: 2020-04-14T10:27:07.428230858Z
+    created: "2020-04-14T15:29:10.244219559+02:00"
     description: Install cert-manager and optionally add a ClusterIssuer
     digest: fc6b5dc4480d6b6f961c50eabba1644f0165b6e423cdf8ac3e3e674a4b268d12
     engine: gotpl
@@ -62,11 +62,11 @@ entries:
     - https://github.com/jetstack/cert-manager
     - https://github.com/jetstack/cert-manager/tree/master/deploy/charts/cert-manager
     urls:
-    - https://mesosphere.github.io/charts/staging/cert-manager-setup-0.1.8.tgz
+    - https://vespian.github.io/charts/staging/cert-manager-setup-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v1
     appVersion: 0.10.1
-    created: 2020-04-14T10:27:07.425263346Z
+    created: "2020-04-14T15:29:10.240172566+02:00"
     description: Install cert-manager and optionally add a ClusterIssuer
     digest: 2d20035fae58536d87387198ee2f13287d257ca3d5e87725de477058f5e8ef40
     engine: gotpl
@@ -83,11 +83,11 @@ entries:
     - https://github.com/jetstack/cert-manager
     - https://github.com/jetstack/cert-manager/tree/master/deploy/charts/cert-manager
     urls:
-    - https://mesosphere.github.io/charts/staging/cert-manager-setup-0.1.7.tgz
+    - https://vespian.github.io/charts/staging/cert-manager-setup-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v1
     appVersion: 0.10.1
-    created: 2020-04-14T10:27:07.422737803Z
+    created: "2020-04-14T15:29:10.236440182+02:00"
     description: Install cert-manager and optionally add a ClusterIssuer
     digest: fa68bb30b5c94178f117a8804d3b259dd1e925019838ea635ff78368820e216d
     engine: gotpl
@@ -104,11 +104,11 @@ entries:
     - https://github.com/jetstack/cert-manager
     - https://github.com/jetstack/cert-manager/tree/master/deploy/charts/cert-manager
     urls:
-    - https://mesosphere.github.io/charts/staging/cert-manager-setup-0.1.6.tgz
+    - https://vespian.github.io/charts/staging/cert-manager-setup-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v1
     appVersion: 0.10.1
-    created: 2020-04-14T10:27:07.420251826Z
+    created: "2020-04-14T15:29:10.233239766+02:00"
     description: Install cert-manager and optionally add a ClusterIssuer
     digest: 67c2c2084fbdee96862f6d1b1868186db79ff442b65884373c9848349ebe4199
     engine: gotpl
@@ -125,11 +125,11 @@ entries:
     - https://github.com/jetstack/cert-manager
     - https://github.com/jetstack/cert-manager/tree/master/deploy/charts/cert-manager
     urls:
-    - https://mesosphere.github.io/charts/staging/cert-manager-setup-0.1.5.tgz
+    - https://vespian.github.io/charts/staging/cert-manager-setup-0.1.5.tgz
     version: 0.1.5
   - apiVersion: v1
     appVersion: 0.10.1
-    created: 2020-04-14T10:27:07.41723206Z
+    created: "2020-04-14T15:29:10.229200546+02:00"
     description: Install cert-manager and optionally add a ClusterIssuer
     digest: a4121b5bc2133d9c79c159039628ab995fb39a10b02702e3304d328fc1fa91e5
     engine: gotpl
@@ -146,11 +146,11 @@ entries:
     - https://github.com/jetstack/cert-manager
     - https://github.com/jetstack/cert-manager/tree/master/deploy/charts/cert-manager
     urls:
-    - https://mesosphere.github.io/charts/staging/cert-manager-setup-0.1.4.tgz
+    - https://vespian.github.io/charts/staging/cert-manager-setup-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v1
     appVersion: 0.10.1
-    created: 2020-04-14T10:27:07.414640557Z
+    created: "2020-04-14T15:29:10.225475816+02:00"
     description: Install cert-manager and optionally add a ClusterIssuer
     digest: 9a379453aed5081687389d394d48dea7ce9e539d0721beedb9f6a59cfcd2071c
     engine: gotpl
@@ -167,11 +167,11 @@ entries:
     - https://github.com/jetstack/cert-manager
     - https://github.com/jetstack/cert-manager/tree/master/deploy/charts/cert-manager
     urls:
-    - https://mesosphere.github.io/charts/staging/cert-manager-setup-0.1.3.tgz
+    - https://vespian.github.io/charts/staging/cert-manager-setup-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
     appVersion: 0.10.1
-    created: 2020-04-14T10:27:07.41206427Z
+    created: "2020-04-14T15:29:10.223283191+02:00"
     description: Install cert-manager and optionally add a ClusterIssuer
     digest: e432a362ae5afe1c73d914afed0359305e1935a2802f9ed0cfab4f7185115228
     engine: gotpl
@@ -188,11 +188,11 @@ entries:
     - https://github.com/jetstack/cert-manager
     - https://github.com/jetstack/cert-manager/tree/master/deploy/charts/cert-manager
     urls:
-    - https://mesosphere.github.io/charts/staging/cert-manager-setup-0.1.2.tgz
+    - https://vespian.github.io/charts/staging/cert-manager-setup-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v1
     appVersion: 0.10.0
-    created: 2020-04-14T10:27:07.405552574Z
+    created: "2020-04-14T15:29:10.217596862+02:00"
     description: Install cert-manager and optionally add a ClusterIssuer
     digest: a5b53833dfdb6c7faf186516d83b47ae6e81f56db8e9dba1eb147c017b93692e
     engine: gotpl
@@ -209,11 +209,11 @@ entries:
     - https://github.com/jetstack/cert-manager
     - https://github.com/jetstack/cert-manager/tree/master/deploy/charts/cert-manager
     urls:
-    - https://mesosphere.github.io/charts/staging/cert-manager-setup-0.1.1.tgz
+    - https://vespian.github.io/charts/staging/cert-manager-setup-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
     appVersion: 0.10.0
-    created: 2020-04-14T10:27:07.402692567Z
+    created: "2020-04-14T15:29:10.213301932+02:00"
     description: Install cert-manager and optionally add a ClusterIssuer
     digest: 4d86a661d64296bc912009a61e1e6f7a5aabdeaab9bb36a4922ba28ad4641672
     engine: gotpl
@@ -230,14 +230,14 @@ entries:
     - https://github.com/jetstack/cert-manager
     - https://github.com/jetstack/cert-manager/tree/master/deploy/charts/cert-manager
     urls:
-    - https://mesosphere.github.io/charts/staging/cert-manager-setup-0.1.0.tgz
+    - https://vespian.github.io/charts/staging/cert-manager-setup-0.1.0.tgz
     version: 0.1.0
   dex-k8s-authenticator:
   - apiVersion: v1
     appVersion: v1.1.2
-    created: 2020-04-14T10:27:07.436154168Z
+    created: "2020-04-14T15:29:10.256898984+02:00"
     description: Authenticator for using Dex with Kubernetes
-    digest: 4643426608d5da449ad568c59979b9acaa3dc350512444b8739fcbfefef508f1
+    digest: 2b798d54bd6e2d417a3e981cb10685e1b469f719d4dac28649ac852d0d12375f
     home: https://github.com/mesosphere/charts
     maintainers:
     - email: mhrabovcin.c@mesosphere.com
@@ -248,11 +248,11 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.17.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.17.tgz
     version: 1.1.17
   - apiVersion: v1
     appVersion: v1.1.1
-    created: 2020-04-14T10:27:07.435490396Z
+    created: "2020-04-14T15:29:10.255874421+02:00"
     description: Authenticator for using Dex with Kubernetes
     digest: 023266c9773aa3dfef79f53f8720732fc828dd63ca0ccdcdef242efacda847cd
     home: https://github.com/mesosphere/charts
@@ -265,11 +265,11 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.16.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.16.tgz
     version: 1.1.16
   - apiVersion: v1
     appVersion: v1.1.1
-    created: 2020-04-14T10:27:07.434837097Z
+    created: "2020-04-14T15:29:10.254834359+02:00"
     description: Authenticator for using Dex with Kubernetes
     digest: 16860eca12adaef6c277910f11dbb108a85aa77574555c50b515a73f64f2cb8d
     home: https://github.com/mesosphere/charts
@@ -282,11 +282,11 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.15.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.15.tgz
     version: 1.1.15
   - apiVersion: v1
     appVersion: v1.1.1
-    created: 2020-04-14T10:27:07.433980806Z
+    created: "2020-04-14T15:29:10.253983102+02:00"
     description: Authenticator for using Dex with Kubernetes
     digest: c54a1e936ddf33e5d804d7bd0725ea6a7ae97da858ae1337c8c3936ae8661b76
     home: https://github.com/mesosphere/charts
@@ -299,11 +299,11 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.14.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.14.tgz
     version: 1.1.14
   - apiVersion: v1
     appVersion: v1.1.1
-    created: 2020-04-14T10:27:07.433307309Z
+    created: "2020-04-14T15:29:10.253162211+02:00"
     description: Authenticator for using Dex with Kubernetes
     digest: 49b8c8ffcb10849e7acdd68eb5e2f7f40347860558699deab1f1bdb80394dffd
     home: https://github.com/mesosphere/charts
@@ -316,11 +316,11 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.13.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.13.tgz
     version: 1.1.13
   - apiVersion: v1
     appVersion: v1.1.1
-    created: 2020-04-14T10:27:07.432785573Z
+    created: "2020-04-14T15:29:10.252344997+02:00"
     description: Authenticator for using Dex with Kubernetes
     digest: cf19cce6233681afd3750e9ee1900825345c07e2e63b84bc8a22efff47fe76eb
     home: https://github.com/mesosphere/charts
@@ -333,11 +333,11 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.12.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.12.tgz
     version: 1.1.12
   - apiVersion: v1
     appVersion: v1.1.1
-    created: 2020-04-14T10:27:07.432255066Z
+    created: "2020-04-14T15:29:10.251526542+02:00"
     description: Authenticator for using Dex with Kubernetes
     digest: feff041b1b88f964d0fe7d0c1c3f7ccba7399ea9140d1db8cfb4e4e74216d26e
     home: https://github.com/mesosphere/charts
@@ -350,11 +350,11 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.11.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.11.tgz
     version: 1.1.11
   - apiVersion: v1
     appVersion: v1.1.1
-    created: 2020-04-14T10:27:07.431714943Z
+    created: "2020-04-14T15:29:10.250570347+02:00"
     description: Authenticator for using Dex with Kubernetes
     digest: 4d1868d10111c3aa1eb37645e28c9b26f01fbfd198321bed33ea9af55bf31a9d
     home: https://github.com/mesosphere/charts
@@ -367,11 +367,11 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.10.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.10.tgz
     version: 1.1.10
   - apiVersion: v1
     appVersion: v1.1.1
-    created: 2020-04-14T10:27:07.440170422Z
+    created: "2020-04-14T15:29:10.263259618+02:00"
     description: Authenticator for using Dex with Kubernetes
     digest: 935d7009c589b049220e1fc7019da5d1325746473635fd71bc61644d3ce371a4
     home: https://github.com/mesosphere/charts
@@ -384,11 +384,11 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.9.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.9.tgz
     version: 1.1.9
   - apiVersion: v1
     appVersion: v1.1.1
-    created: 2020-04-14T10:27:07.439628315Z
+    created: "2020-04-14T15:29:10.262303384+02:00"
     description: Authenticator for using Dex with Kubernetes
     digest: 879bbff14b21c67c6f1b3ea3aa80cc043796014d6998fafc2146130a9e545ed8
     home: https://github.com/mesosphere/charts
@@ -401,11 +401,11 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.8.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.8.tgz
     version: 1.1.8
   - apiVersion: v1
     appVersion: v1.1.0
-    created: 2020-04-14T10:27:07.439115719Z
+    created: "2020-04-14T15:29:10.261002073+02:00"
     description: Authenticator for using Dex with Kubernetes
     digest: 722faf9590eb9d6236c36447f192d5f5d98906071120d821dc467461e5b45fce
     home: https://github.com/mesosphere/charts
@@ -416,11 +416,11 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.7.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.7.tgz
     version: 1.1.7
   - apiVersion: v1
     appVersion: v1.1.0
-    created: 2020-04-14T10:27:07.438619637Z
+    created: "2020-04-14T15:29:10.260541649+02:00"
     description: Authenticator for using Dex with Kubernetes
     digest: 9d3a4378e4e7fe8b5d29c9e3540b70efd9583224846d3372e54e2626eec4b140
     home: https://github.com/mesosphere/charts
@@ -431,11 +431,11 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.6.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.6.tgz
     version: 1.1.6
   - apiVersion: v1
     appVersion: v1.1.0
-    created: 2020-04-14T10:27:07.438121672Z
+    created: "2020-04-14T15:29:10.260080684+02:00"
     description: Authenticator for using Dex with Kubernetes
     digest: e2aa61bd89adcb15a5c7a4e36789437147c79c27fc05f09dc4a5dab1e784bd98
     home: https://github.com/mesosphere/charts
@@ -446,11 +446,11 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.5.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.5.tgz
     version: 1.1.5
   - apiVersion: v1
     appVersion: v1.1.0
-    created: 2020-04-14T10:27:07.437638011Z
+    created: "2020-04-14T15:29:10.259569655+02:00"
     description: Authenticator for using Dex with Kubernetes
     digest: 0d60186d46680159187e5458c24c6ef18cb1e322b9f28b18b95d55fb0790b444
     home: https://github.com/mesosphere/charts
@@ -461,11 +461,11 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.4.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.4.tgz
     version: 1.1.4
   - apiVersion: v1
     appVersion: v1.1.0
-    created: 2020-04-14T10:27:07.437146531Z
+    created: "2020-04-14T15:29:10.258683242+02:00"
     description: Authenticator for using Dex with Kubernetes
     digest: fb7db6ae0baa802c89fb7cdbdcd45eaeb601a29fc4ca39d713a6bd5517d0d02c
     maintainers:
@@ -479,11 +479,11 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.3.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.3.tgz
     version: 1.1.3
   - apiVersion: v1
     appVersion: v1.1.0
-    created: 2020-04-14T10:27:07.436651188Z
+    created: "2020-04-14T15:29:10.257798261+02:00"
     description: Authenticator for using Dex with Kubernetes
     digest: 2714dd1206327a96e151357b24fe7b412e54c5507fb16990d5e199cc20dde64c
     maintainers:
@@ -497,11 +497,11 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.2.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.2.tgz
     version: 1.1.2
   - apiVersion: v1
     appVersion: v1.1.0
-    created: 2020-04-14T10:27:07.43119905Z
+    created: "2020-04-14T15:29:10.249641915+02:00"
     description: Authenticator for using Dex with Kubernetes
     digest: ef65818aaedebe5053fef11f1184f8255edc5e850859642fe5ce48d764b77b35
     maintainers:
@@ -515,16 +515,16 @@ entries:
     sources:
     - https://github.com/mintel/dex-k8s-authenticator
     urls:
-    - https://mesosphere.github.io/charts/staging/dex-k8s-authenticator-1.1.1.tgz
+    - https://vespian.github.io/charts/staging/dex-k8s-authenticator-1.1.1.tgz
     version: 1.1.1
   flagger:
   - apiVersion: v1
     appVersion: 0.19.0
-    created: 2020-04-14T10:27:07.441093636Z
+    created: "2020-04-14T15:29:10.264694802+02:00"
     description: Flagger is a Kubernetes operator that automates the promotion of
       canary deployments using Istio, Linkerd, App Mesh, Gloo or NGINX routing for
       traffic shifting and Prometheus metrics for canary analysis.
-    digest: 8ef1d530ac3e149bc4ae3484ee0ee6d2bb06b4849d62a09de13efef759cbe16e
+    digest: e72fdada29f7eca010fdba2d128bbfbb1822aacd4f6ce263e13785471af38ce9
     engine: gotpl
     home: https://docs.flagger.app
     icon: https://raw.githubusercontent.com/weaveworks/flagger/master/docs/logo/flagger-icon.png
@@ -543,14 +543,14 @@ entries:
     sources:
     - https://github.com/weaveworks/flagger
     urls:
-    - https://mesosphere.github.io/charts/staging/flagger-0.19.0.tgz
+    - https://vespian.github.io/charts/staging/flagger-0.19.0.tgz
     version: 0.19.0
   gatekeeper:
   - apiVersion: v1
     appVersion: 3.0.4-beta.1
-    created: 2020-04-14T10:27:07.444338823Z
+    created: "2020-04-14T15:29:10.268893882+02:00"
     description: Gatekeeper - Policy Controller for Kubernetes
-    digest: 08eeb25bd76b30d3a302cd1dd4c8a928f0f95cea7e597fe9ab0267e5c8d3e080
+    digest: e4dc56d853f189b6c49686f46054027d5ba5f3ab0f9f135416d78b0961ddceb3
     home: https://github.com/open-policy-agent/gatekeeper
     icon: https://www.openpolicyagent.org/img/opa-logo.svg
     maintainers:
@@ -561,11 +561,11 @@ entries:
     - https://github.com/open-policy-agent/gatekeeper
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/gatekeeper-0.3.3.tgz
+    - https://vespian.github.io/charts/staging/gatekeeper-0.3.3.tgz
     version: 0.3.3
   - apiVersion: v1
     appVersion: 3.0.4-beta.1
-    created: 2020-04-14T10:27:07.443872826Z
+    created: "2020-04-14T15:29:10.268219927+02:00"
     description: Gatekeeper - Policy Controller for Kubernetes
     digest: 11ff83c2283cd7cd9fd481232fae1ede2bbbc09549e56f097a54496c604d761e
     home: https://github.com/open-policy-agent/gatekeeper
@@ -578,11 +578,11 @@ entries:
     - https://github.com/open-policy-agent/gatekeeper
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/gatekeeper-0.3.2.tgz
+    - https://vespian.github.io/charts/staging/gatekeeper-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v1
     appVersion: 3.0.4-beta.1
-    created: 2020-04-14T10:27:07.44342069Z
+    created: "2020-04-14T15:29:10.267535032+02:00"
     description: Gatekeeper - Policy Controller for Kubernetes
     digest: 526319a1a287d599f587c28af32baa53305f566b6cdd9d1aa7631c3dabdc2d4c
     home: https://github.com/open-policy-agent/gatekeeper
@@ -595,11 +595,11 @@ entries:
     - https://github.com/open-policy-agent/gatekeeper
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/gatekeeper-0.3.1.tgz
+    - https://vespian.github.io/charts/staging/gatekeeper-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v1
     appVersion: 3.0.4-beta.1
-    created: 2020-04-14T10:27:07.442967422Z
+    created: "2020-04-14T15:29:10.266751241+02:00"
     description: Gatekeeper - Policy Controller for Kubernetes
     digest: fa78f9c274eefd42fd26c9b88949fa05c3eed3314c7ab6b7def582cd9f523ca2
     home: https://github.com/open-policy-agent/gatekeeper
@@ -612,11 +612,11 @@ entries:
     - https://github.com/open-policy-agent/gatekeeper
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/gatekeeper-0.3.0.tgz
+    - https://vespian.github.io/charts/staging/gatekeeper-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
     appVersion: 3.0.4-beta.1
-    created: 2020-04-14T10:27:07.441857717Z
+    created: "2020-04-14T15:29:10.266015971+02:00"
     description: Gatekeeper - Policy Controller for Kubernetes
     digest: e2d332137417d314db0401aa194c86350ac1fcc5c659b0d382b59bcc911f358a
     home: https://github.com/open-policy-agent/gatekeeper
@@ -629,11 +629,11 @@ entries:
     - https://github.com/open-policy-agent/gatekeeper
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/gatekeeper-0.2.0.tgz
+    - https://vespian.github.io/charts/staging/gatekeeper-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 3.0.4-beta.1
-    created: 2020-04-14T10:27:07.441450136Z
+    created: "2020-04-14T15:29:10.265310196+02:00"
     description: Gatekeeper - Policy Controller for Kubernetes
     digest: 46cfcc10dd9b7f9a172237f33bd57097888e96bf90c457884234b61dba7d0c16
     home: https://github.com/open-policy-agent/gatekeeper
@@ -646,14 +646,14 @@ entries:
     - https://github.com/open-policy-agent/gatekeeper
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/gatekeeper-0.1.0.tgz
+    - https://vespian.github.io/charts/staging/gatekeeper-0.1.0.tgz
     version: 0.1.0
   generic-ingress:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-04-14T10:27:07.444710492Z
+    created: "2020-04-14T15:29:10.269537469+02:00"
     description: Adds an traefik ingress record using the provided values
-    digest: f2b005a8d29b9b3832682195e876553e59d1840047233946fbfec522e285fadb
+    digest: 289add633f575080f3d8baf9d4cc573b56f22419eb452b68f68d9494f90df5ad
     engine: gotpl
     home: https://github.com/mesosphere/charts
     keywords:
@@ -664,11 +664,11 @@ entries:
       name: jr0d
     name: generic-ingress
     urls:
-    - https://mesosphere.github.io/charts/staging/generic-ingress-0.1.1.tgz
+    - https://vespian.github.io/charts/staging/generic-ingress-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-04-14T10:27:07.44451765Z
+    created: "2020-04-14T15:29:10.269198884+02:00"
     description: Adds an traefik ingress record using the provided values
     digest: b46c857d2c05eb49d2e1c24fa1bff19dcbf94a616f1e5ea425bb6f101813f2ee
     engine: gotpl
@@ -681,14 +681,14 @@ entries:
       name: jr0d
     name: generic-ingress
     urls:
-    - https://mesosphere.github.io/charts/staging/generic-ingress-0.1.0.tgz
+    - https://vespian.github.io/charts/staging/generic-ingress-0.1.0.tgz
     version: 0.1.0
   istio:
   - apiVersion: v1
     appVersion: 1.4.3
-    created: 2020-04-14T10:27:07.464543787Z
+    created: "2020-04-14T15:29:10.299805549+02:00"
     description: Helm chart for all istio components
-    digest: 9da19c64b1ee0806aa33b897bb2b30e24d85e840d470fa5629fc872d7714bb60
+    digest: 8cfb4ddb17cbe983c012c36f7b37ed907ba525258dba2477abb09fbc7f5dd41e
     engine: gotpl
     home: http://github.com/istio/istio
     icon: https://istio.io/favicons/android-192x192.png
@@ -706,11 +706,11 @@ entries:
     - http://github.com/istio/istio
     tillerVersion: '>=2.7.2-0'
     urls:
-    - https://mesosphere.github.io/charts/staging/istio-1.4.3.tgz
+    - https://vespian.github.io/charts/staging/istio-1.4.3.tgz
     version: 1.4.3
   - apiVersion: v1
     appVersion: 1.3.3
-    created: 2020-04-14T10:27:07.458876208Z
+    created: "2020-04-14T15:29:10.291324323+02:00"
     description: Helm chart for all istio components
     digest: 607a757cacc6ac79cbeda741fca7d2cda2c9caa13a2a95e32b4f365749d382cd
     engine: gotpl
@@ -730,11 +730,11 @@ entries:
     - http://github.com/istio/istio
     tillerVersion: '>=2.7.2-0'
     urls:
-    - https://mesosphere.github.io/charts/staging/istio-1.3.5.tgz
+    - https://vespian.github.io/charts/staging/istio-1.3.5.tgz
     version: 1.3.5
   - apiVersion: v1
     appVersion: 1.3.3
-    created: 2020-04-14T10:27:07.453975494Z
+    created: "2020-04-14T15:29:10.286142268+02:00"
     description: Helm chart for all istio components
     digest: 15cb5ec63e3223d954b7c1c93b807a787fda92b327ada2a17a8f5f9067283a15
     engine: gotpl
@@ -754,11 +754,11 @@ entries:
     - http://github.com/istio/istio
     tillerVersion: '>=2.7.2-0'
     urls:
-    - https://mesosphere.github.io/charts/staging/istio-1.3.4.tgz
+    - https://vespian.github.io/charts/staging/istio-1.3.4.tgz
     version: 1.3.4
   - apiVersion: v1
     appVersion: 1.3.3
-    created: 2020-04-14T10:27:07.449692725Z
+    created: "2020-04-14T15:29:10.277823519+02:00"
     description: Helm chart for all istio components
     digest: 9c14ff6a7b1568f2b5fae6871c3c9624700fdcce1eb494ad998d5885c14c93ee
     engine: gotpl
@@ -778,12 +778,12 @@ entries:
     - http://github.com/istio/istio
     tillerVersion: '>=2.7.2-0'
     urls:
-    - https://mesosphere.github.io/charts/staging/istio-1.3.3.tgz
+    - https://vespian.github.io/charts/staging/istio-1.3.3.tgz
     version: 1.3.3
   karma:
   - apiVersion: v1
     appVersion: v0.50
-    created: 2020-04-14T10:27:07.465274367Z
+    created: "2020-04-14T15:29:10.301315301+02:00"
     description: A Helm chart for Karma - an UI for Prometheus Alertmanager
     digest: 391689d45cfc2e5a1c1f6387d5342fae2d479e5980313325c2f4097c8032a497
     home: https://github.com/prymitive/karma
@@ -797,11 +797,11 @@ entries:
     - https://hub.docker.com/r/lmierzwa/karma/
     - https://github.com/prymitive/karma
     urls:
-    - https://mesosphere.github.io/charts/staging/karma-1.3.0.tgz
+    - https://vespian.github.io/charts/staging/karma-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v1
     appVersion: v0.48
-    created: 2020-04-14T10:27:07.464919797Z
+    created: "2020-04-14T15:29:10.300657668+02:00"
     description: A Helm chart for Karma - an UI for Prometheus Alertmanager
     digest: 89f5cc5f5d8616a9f3132f5d623cec98f69d266ea2e04c6d21fe5465aa38d24f
     home: https://github.com/prymitive/karma
@@ -815,26 +815,26 @@ entries:
     - https://hub.docker.com/r/lmierzwa/karma/
     - https://github.com/prymitive/karma
     urls:
-    - https://mesosphere.github.io/charts/staging/karma-1.1.21.tgz
+    - https://vespian.github.io/charts/staging/karma-1.1.21.tgz
     version: 1.1.21
   knative:
   - apiVersion: v1
     appVersion: v0.7.1
-    created: 2020-04-14T10:27:07.468833747Z
+    created: "2020-04-14T15:29:10.307132618+02:00"
     description: Kubernetes-based platform to build, deploy, and manage modern serverless
       workloads
-    digest: fe0fc3c71a39617219e7be9189eac800de7b3283990a98d0262e599c48f0c782
+    digest: 8fb4bda2f2adecb823e3003f78669098f9ac3cb69b96e1f79156738af7b967c3
     home: https://knative.dev/
     icon: https://raw.githubusercontent.com/knative/docs/master/docs/images/logo/rgb/knative-logo-rgb.jpg
     maintainers:
     - name: chhsia0
     name: knative
     urls:
-    - https://mesosphere.github.io/charts/staging/knative-0.2.0.tgz
+    - https://vespian.github.io/charts/staging/knative-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: v0.7.1
-    created: 2020-04-14T10:27:07.46707364Z
+    created: "2020-04-14T15:29:10.304172623+02:00"
     description: Kubernetes-based platform to build, deploy, and manage modern serverless
       workloads
     digest: 8b42a168932dd247574c6fb392196602dbaa655db9f0f54834a1180c78b6d4cf
@@ -844,15 +844,15 @@ entries:
     - name: chhsia0
     name: knative
     urls:
-    - https://mesosphere.github.io/charts/staging/knative-0.1.0.tgz
+    - https://vespian.github.io/charts/staging/knative-0.1.0.tgz
     version: 0.1.0
   konvoyconfig:
   - apiVersion: v1
     appVersion: 0.0.1
-    created: 2020-04-14T10:27:07.469215034Z
+    created: "2020-04-14T15:29:10.307866906+02:00"
     description: Adds a ConfigMap to the kubeaddons namespace containing the values
       provided to this chart
-    digest: 694733d70bfa783b22ba920cd7b0b6b8ef9d45586253f0316335f2bab68ff738
+    digest: 16b2e15b42c0dd48c9b78e4c6e20f72e68fcf3e251800845965b11a8df353de1
     engine: gotpl
     home: https://github.com/mesosphere/charts
     keywords:
@@ -863,11 +863,11 @@ entries:
       name: jr0d
     name: konvoyconfig
     urls:
-    - https://mesosphere.github.io/charts/staging/konvoyconfig-0.0.2.tgz
+    - https://vespian.github.io/charts/staging/konvoyconfig-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
     appVersion: 0.0.1
-    created: 2020-04-14T10:27:07.469029041Z
+    created: "2020-04-14T15:29:10.307538429+02:00"
     description: Adds a ConfigMap to the kubeaddons namespace containing the values
       provided to this chart
     digest: d31d7c9d63f974bac3a101aa4cf1119a3b4befd075755e204ad890f24e68e06f
@@ -881,14 +881,14 @@ entries:
       name: jr0d
     name: konvoyconfig
     urls:
-    - https://mesosphere.github.io/charts/staging/konvoyconfig-0.0.1.tgz
+    - https://vespian.github.io/charts/staging/konvoyconfig-0.0.1.tgz
     version: 0.0.1
   kube-oidc-proxy:
   - apiVersion: v1
     appVersion: v0.2.0
-    created: 2020-04-14T10:27:07.475987929Z
+    created: "2020-04-14T15:29:10.315267023+02:00"
     description: A Helm chart for kube-oidc-proxy
-    digest: e68d750f63d19e81198edb4c149afb7bff4267bd08173904b0642d973be11983
+    digest: 2640b5df1c26fa708196e4eba7602c7a522073526c7b3068481b91175135c80f
     home: https://github.com/mesosphere/charts
     maintainers:
     - email: mhrabovcin.c@d2iq.com
@@ -899,11 +899,11 @@ entries:
     sources:
     - https://github.com/jetstack/kube-oidc-proxy
     urls:
-    - https://mesosphere.github.io/charts/staging/kube-oidc-proxy-0.2.1.tgz
+    - https://vespian.github.io/charts/staging/kube-oidc-proxy-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v1
     appVersion: v0.2.0
-    created: 2020-04-14T10:27:07.474958303Z
+    created: "2020-04-14T15:29:10.31480725+02:00"
     description: A Helm chart for kube-oidc-proxy
     digest: c47a81627f22bf3a6d072e30fc3e00db71853d1dfeaf2f91011417dec6132057
     home: https://github.com/mesosphere/charts
@@ -916,11 +916,11 @@ entries:
     sources:
     - https://github.com/jetstack/kube-oidc-proxy
     urls:
-    - https://mesosphere.github.io/charts/staging/kube-oidc-proxy-0.2.0.tgz
+    - https://vespian.github.io/charts/staging/kube-oidc-proxy-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: v0.2.0
-    created: 2020-04-14T10:27:07.474426819Z
+    created: "2020-04-14T15:29:10.314347547+02:00"
     description: A Helm chart for kube-oidc-proxy
     digest: c913295cef84bbadbadc5c856675bf665a12a432a545f1809c177ae843115f04
     home: https://github.com/mesosphere/charts
@@ -933,11 +933,11 @@ entries:
     sources:
     - https://github.com/jetstack/kube-oidc-proxy
     urls:
-    - https://mesosphere.github.io/charts/staging/kube-oidc-proxy-0.1.9.tgz
+    - https://vespian.github.io/charts/staging/kube-oidc-proxy-0.1.9.tgz
     version: 0.1.9
   - apiVersion: v1
     appVersion: v0.1.1
-    created: 2020-04-14T10:27:07.47391064Z
+    created: "2020-04-14T15:29:10.313923461+02:00"
     description: A Helm chart for kube-oidc-proxy
     digest: e7474b460241d3c523861355b82b1ae07c21d3cff5d6dbef031db62ef2d81048
     home: https://github.com/mesosphere/charts
@@ -950,11 +950,11 @@ entries:
     sources:
     - https://github.com/jetstack/kube-oidc-proxy
     urls:
-    - https://mesosphere.github.io/charts/staging/kube-oidc-proxy-0.1.8.tgz
+    - https://vespian.github.io/charts/staging/kube-oidc-proxy-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v1
     appVersion: v0.1.1
-    created: 2020-04-14T10:27:07.473381463Z
+    created: "2020-04-14T15:29:10.313485109+02:00"
     description: A Helm chart for kube-oidc-proxy
     digest: 3d922e54157ba833b1bf16ff284cce54f7cd34a130479a555f6a7ee552b22b3c
     home: https://github.com/mesosphere/charts
@@ -967,11 +967,11 @@ entries:
     sources:
     - https://github.com/jetstack/kube-oidc-proxy
     urls:
-    - https://mesosphere.github.io/charts/staging/kube-oidc-proxy-0.1.7.tgz
+    - https://vespian.github.io/charts/staging/kube-oidc-proxy-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v1
     appVersion: v0.1.1
-    created: 2020-04-14T10:27:07.4728587Z
+    created: "2020-04-14T15:29:10.313052196+02:00"
     description: A Helm chart for kube-oidc-proxy
     digest: 3b3a7eb2e5fc158f4ebc7be8a1f1a7db42374e2c6e388c3f6571c2d9887a84ed
     home: https://github.com/mesosphere/charts
@@ -984,11 +984,11 @@ entries:
     sources:
     - https://github.com/jetstack/kube-oidc-proxy
     urls:
-    - https://mesosphere.github.io/charts/staging/kube-oidc-proxy-0.1.6.tgz
+    - https://vespian.github.io/charts/staging/kube-oidc-proxy-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v1
     appVersion: v0.1.1
-    created: 2020-04-14T10:27:07.472345916Z
+    created: "2020-04-14T15:29:10.312587124+02:00"
     description: A Helm chart for kube-oidc-proxy
     digest: 103cca053d89f445da8e1a1f5a9a6e209b9b45ff7bb3fb8e8a20a00cf4f8e71e
     home: https://github.com/mesosphere/charts
@@ -1001,11 +1001,11 @@ entries:
     sources:
     - https://github.com/jetstack/kube-oidc-proxy
     urls:
-    - https://mesosphere.github.io/charts/staging/kube-oidc-proxy-0.1.5.tgz
+    - https://vespian.github.io/charts/staging/kube-oidc-proxy-0.1.5.tgz
     version: 0.1.5
   - apiVersion: v1
     appVersion: v0.1.1
-    created: 2020-04-14T10:27:07.471832843Z
+    created: "2020-04-14T15:29:10.312124085+02:00"
     description: A Helm chart for kube-oidc-proxy
     digest: d40a6565dd85f6c7fad3eb58fa4bc126e677d991b2acd953f6fda9a0650b4f50
     home: https://github.com/mesosphere/charts
@@ -1018,11 +1018,11 @@ entries:
     sources:
     - https://github.com/jetstack/kube-oidc-proxy
     urls:
-    - https://mesosphere.github.io/charts/staging/kube-oidc-proxy-0.1.4.tgz
+    - https://vespian.github.io/charts/staging/kube-oidc-proxy-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v1
     appVersion: v0.1.1
-    created: 2020-04-14T10:27:07.471301498Z
+    created: "2020-04-14T15:29:10.311445822+02:00"
     description: A Helm chart for kube-oidc-proxy
     digest: 341397d1bc84332fbd82a16ecab4679f38954fc59af3f43e974220747ec68334
     home: https://github.com/mesosphere/charts
@@ -1035,11 +1035,11 @@ entries:
     sources:
     - https://github.com/jetstack/kube-oidc-proxy
     urls:
-    - https://mesosphere.github.io/charts/staging/kube-oidc-proxy-0.1.3.tgz
+    - https://vespian.github.io/charts/staging/kube-oidc-proxy-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
     appVersion: v0.1.1
-    created: 2020-04-14T10:27:07.470780611Z
+    created: "2020-04-14T15:29:10.310511659+02:00"
     description: A Helm chart for kube-oidc-proxy
     digest: 973b2417054e80962b2e8b8ad5fb3de4a8c9898419bcaabcd9578bb6051d3e17
     home: https://github.com/mesosphere/charts
@@ -1052,11 +1052,11 @@ entries:
     sources:
     - https://github.com/jetstack/kube-oidc-proxy
     urls:
-    - https://mesosphere.github.io/charts/staging/kube-oidc-proxy-0.1.2.tgz
+    - https://vespian.github.io/charts/staging/kube-oidc-proxy-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v1
     appVersion: v0.1.1
-    created: 2020-04-14T10:27:07.470246108Z
+    created: "2020-04-14T15:29:10.309625746+02:00"
     description: A Helm chart for kube-oidc-proxy
     digest: d3c8e291ea01df0ac0727cfc80f407ff028627664fb8eb7cb56f189133784c5c
     home: https://github.com/mesosphere/charts
@@ -1069,11 +1069,11 @@ entries:
     sources:
     - https://github.com/jetstack/kube-oidc-proxy
     urls:
-    - https://mesosphere.github.io/charts/staging/kube-oidc-proxy-0.1.1.tgz
+    - https://vespian.github.io/charts/staging/kube-oidc-proxy-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
     appVersion: v0.1.1
-    created: 2020-04-14T10:27:07.46972003Z
+    created: "2020-04-14T15:29:10.308738231+02:00"
     description: A Helm chart for kube-oidc-proxy
     digest: 8e3b0437e4a921b16d6ddebbd380ea39909520371a55d6be5d23d042d3bdc9bf
     home: https://github.com/mesosphere/charts
@@ -1084,14 +1084,14 @@ entries:
     sources:
     - https://github.com/jetstack/kube-oidc-proxy
     urls:
-    - https://mesosphere.github.io/charts/staging/kube-oidc-proxy-0.1.0.tgz
+    - https://vespian.github.io/charts/staging/kube-oidc-proxy-0.1.0.tgz
     version: 0.1.0
   kubeaddons-catalog:
   - apiVersion: v1
     appVersion: v0.8.3
-    created: 2020-04-14T10:27:07.48069277Z
+    created: "2020-04-14T15:29:10.322427378+02:00"
     description: A Catalog service for Kubeaddons
-    digest: 2d0b1aef99ddfd2e457559de6149aa71246f4acee733fd64764c613a7c43433e
+    digest: 465820e07e73f75a9a36c50df3de63380934c0ebf64d2517bf30a538d6b9f32d
     home: https://github.com/mesosphere/kommander-catalog-api
     maintainers:
     - email: shaneutt@linux.com
@@ -1102,11 +1102,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kommander-catalog-api
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.1.8.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.1.8.tgz
     version: 0.1.8
   - apiVersion: v1
     appVersion: v0.8.3
-    created: 2020-04-14T10:27:07.480409331Z
+    created: "2020-04-14T15:29:10.322121745+02:00"
     description: A Catalog service for Kubeaddons
     digest: bd7f51f95d535234614664ad06f81547e454092c3ae155ea39508f4e597a2f16
     home: https://github.com/mesosphere/kommander-catalog-api
@@ -1119,11 +1119,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kommander-catalog-api
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.1.7.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.1.7.tgz
     version: 0.1.7
   - apiVersion: v1
     appVersion: v0.8.2
-    created: 2020-04-14T10:27:07.480137404Z
+    created: "2020-04-14T15:29:10.321807576+02:00"
     description: A Catalog service for Kubeaddons
     digest: 4991348631ab7595b0f0589c90978bbe570bb547ae9b71a0e9def7c8469d9070
     home: https://github.com/mesosphere/kommander-catalog-api
@@ -1135,11 +1135,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kommander-catalog-api
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.1.6.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v1
     appVersion: v0.3.0
-    created: 2020-04-14T10:27:07.479870314Z
+    created: "2020-04-14T15:29:10.321503585+02:00"
     description: A Catalog service for Kubeaddons
     digest: c262c93583996accc17f4b76cb9eafb091dc9ead7e645baca955fecff07a593c
     home: https://github.com/mesosphere/kubeaddons
@@ -1152,11 +1152,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kubeaddons/tools/catalog
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.1.5.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.1.5.tgz
     version: 0.1.5
   - apiVersion: v1
     appVersion: v0.3.0
-    created: 2020-04-14T10:27:07.479570804Z
+    created: "2020-04-14T15:29:10.32119192+02:00"
     description: A Catalog service for Kubeaddons
     digest: 6ab3fd7ff1fb4f243da1c3bbf14c952a67de707222f8afc64902dbc591142aca
     home: https://github.com/mesosphere/kubeaddons
@@ -1169,11 +1169,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kubeaddons/tools/catalog
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.1.4.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v1
     appVersion: v0.3.0
-    created: 2020-04-14T10:27:07.479291725Z
+    created: "2020-04-14T15:29:10.320879955+02:00"
     description: A Catalog service for Kubeaddons
     digest: 74c8ada08225a19164863988ec35612d45ae5df55257667babaaffb6a601695e
     home: https://github.com/mesosphere/kubeaddons
@@ -1186,11 +1186,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kubeaddons/tools/catalog
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.1.3.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
     appVersion: v0.3.0
-    created: 2020-04-14T10:27:07.479034301Z
+    created: "2020-04-14T15:29:10.320561798+02:00"
     description: A Catalog service for Kubeaddons
     digest: 2d429aeb4998e5b2829ab4bde3303d4edd3e3c9ab2ecd1dcb8a079441c2e7a3b
     home: https://github.com/mesosphere/kubeaddons
@@ -1203,11 +1203,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kubeaddons/tools/catalog
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.1.2.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v1
     appVersion: v0.3.0
-    created: 2020-04-14T10:27:07.478767362Z
+    created: "2020-04-14T15:29:10.320244002+02:00"
     description: A Catalog service for Kubeaddons
     digest: 2c129b1fc602bd272f1df65d97adc54cb3d0a48fd5783ee8948a49f3d16732fd
     home: https://github.com/mesosphere/kubeaddons
@@ -1220,11 +1220,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kubeaddons/tools/catalog
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.1.1.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
     appVersion: v0.3.0
-    created: 2020-04-14T10:27:07.478515112Z
+    created: "2020-04-14T15:29:10.319914323+02:00"
     description: A Catalog service for Kubeaddons
     digest: 312c9b06c0c136c6ff123f004ba672b3e2af27eb838ac0f0c74dea8610c5ee07
     home: https://github.com/mesosphere/kubeaddons
@@ -1237,11 +1237,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kubeaddons/tools/catalog
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.1.0.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.1.0.tgz
     version: 0.1.0
   - apiVersion: v1
     appVersion: v0.0.1-alpha1
-    created: 2020-04-14T10:27:07.478232073Z
+    created: "2020-04-14T15:29:10.319534401+02:00"
     description: A Catalog service for Kubeaddons
     digest: a8b21207b670a093cdf96da8987f98f53388382981ac53922703c379e4dba08a
     home: https://github.com/mesosphere/kubeaddons
@@ -1254,11 +1254,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kubeaddons/tools/catalog
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.0.9.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.0.9.tgz
     version: 0.0.9
   - apiVersion: v1
     appVersion: v0.0.1-alpha1
-    created: 2020-04-14T10:27:07.477979608Z
+    created: "2020-04-14T15:29:10.31907554+02:00"
     description: A Catalog service for Kubeaddons
     digest: 9511a7408b97623700b27f2035cfd9b4ac9865cb4fdcc5dc87df7e2d9807f549
     home: https://github.com/mesosphere/kubeaddons
@@ -1271,11 +1271,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kubeaddons/tools/catalog
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.0.8.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.0.8.tgz
     version: 0.0.8
   - apiVersion: v1
     appVersion: v0.0.1-alpha1
-    created: 2020-04-14T10:27:07.477727414Z
+    created: "2020-04-14T15:29:10.318584919+02:00"
     description: A Catalog service for Kubeaddons
     digest: 5c660e69e45b5ba32619c056a7884c09655105f7498abff92ffba5e5550cf43d
     home: https://github.com/mesosphere/kubeaddons
@@ -1288,11 +1288,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kubeaddons/tools/catalog
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.0.7.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.0.7.tgz
     version: 0.0.7
   - apiVersion: v1
     appVersion: v0.0.1-alpha1
-    created: 2020-04-14T10:27:07.477477309Z
+    created: "2020-04-14T15:29:10.3181273+02:00"
     description: A Catalog service for Kubeaddons
     digest: a74980d375a10a903c0d67ca7a8b129a48c5d97f009aa7817392db18bf657a27
     home: https://github.com/mesosphere/kubeaddons
@@ -1304,11 +1304,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kubeaddons/tools/catalog
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.0.6.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.0.6.tgz
     version: 0.0.6
   - apiVersion: v1
     appVersion: v0.0.1-alpha1
-    created: 2020-04-14T10:27:07.477245168Z
+    created: "2020-04-14T15:29:10.317688577+02:00"
     description: A Catalog service for Kubeaddons
     digest: 83b5d35df68eb031f1d45aefaf6b92196543e4ab1a3592bf5108407aa959f320
     home: https://github.com/mesosphere/kubeaddons
@@ -1320,11 +1320,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kubeaddons/tools/catalog
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.0.5.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.0.5.tgz
     version: 0.0.5
   - apiVersion: v1
     appVersion: v0.0.1-alpha1
-    created: 2020-04-14T10:27:07.477009582Z
+    created: "2020-04-14T15:29:10.317245816+02:00"
     description: A Catalog service for Kubeaddons
     digest: 64f7828e4eb713b009f82c5d319e9c529aa1cfc8325cd1cbdd0f9cc0a7cb5559
     home: https://github.com/mesosphere/kubeaddons
@@ -1336,11 +1336,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kubeaddons/tools/catalog
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.0.4.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.0.4.tgz
     version: 0.0.4
   - apiVersion: v1
     appVersion: v0.0.1-alpha1
-    created: 2020-04-14T10:27:07.476772053Z
+    created: "2020-04-14T15:29:10.316811391+02:00"
     description: A Catalog service for Kubeaddons
     digest: fec05f09c5776775cfad6987102663708255d027f7be642304a561f200df4b22
     home: https://github.com/mesosphere/kubeaddons
@@ -1352,11 +1352,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kubeaddons/tools/catalog
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.0.3.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.0.3.tgz
     version: 0.0.3
   - apiVersion: v1
     appVersion: v0.0.1-alpha1
-    created: 2020-04-14T10:27:07.476547303Z
+    created: "2020-04-14T15:29:10.316426809+02:00"
     description: A Catalog service for Kubeaddons
     digest: 0ecefd29fe2416d97d08441211a914913a3ee32719a4f16902ca7155ba830cc7
     home: https://github.com/mesosphere/kubeaddons
@@ -1368,11 +1368,11 @@ entries:
     sources:
     - https://github.com/mesosphere/kubeaddons/tools/catalog
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.0.2.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.0.2.tgz
     version: 0.0.2
   - apiVersion: v1
     appVersion: v0.0.1-alpha1
-    created: 2020-04-14T10:27:07.476355354Z
+    created: "2020-04-14T15:29:10.316063918+02:00"
     description: A Catalog service for Kubeaddons
     digest: 6c9b61341e069bc5d4b876e183bf5e3a65b18ee9ddfe32da3315439d9a11e607
     home: https://github.com/mesosphere/kubeaddons
@@ -1383,24 +1383,24 @@ entries:
     sources:
     - https://github.com/mesosphere/kubeaddons/tools/catalog
     urls:
-    - https://mesosphere.github.io/charts/staging/kubeaddons-catalog-0.0.1.tgz
+    - https://vespian.github.io/charts/staging/kubeaddons-catalog-0.0.1.tgz
     version: 0.0.1
   kubefed:
   - apiVersion: v1
     appVersion: v0.1.0-rc6
-    created: 2020-04-14T10:27:07.483020799Z
+    created: "2020-04-14T15:29:10.325001258+02:00"
     description: KubeFed helm chart
-    digest: a8ca43d13fb6813e5d52e3efb7e258a221d16eb123c60f2d10db742d0d52c88b
+    digest: be4b763634ebe8cb93ea8411fef52dcd257c432a25480745359cfdb559e78193
     home: https://github.com/kubernetes-sigs/kubefed
     maintainers:
     - name: s12chung
     name: kubefed
     urls:
-    - https://mesosphere.github.io/charts/staging/kubefed-0.0.3.tgz
+    - https://vespian.github.io/charts/staging/kubefed-0.0.3.tgz
     version: 0.0.3
   - apiVersion: v1
     appVersion: v0.1.0-rc6
-    created: 2020-04-14T10:27:07.481590154Z
+    created: "2020-04-14T15:29:10.323450719+02:00"
     description: KubeFed helm chart
     digest: 28c2bb91af11e0ca34f882cb759213d0b42c012d32ba9ba98e8ae093eff2e5cb
     home: https://github.com/kubernetes-sigs/kubefed
@@ -1408,14 +1408,14 @@ entries:
     - name: s12chung
     name: kubefed
     urls:
-    - https://mesosphere.github.io/charts/staging/kubefed-0.0.2.tgz
+    - https://vespian.github.io/charts/staging/kubefed-0.0.2.tgz
     version: 0.0.2
   kubernetes-dashboard:
   - apiVersion: v1
     appVersion: 2.0.0-beta6
-    created: 2020-04-14T10:27:07.483615929Z
+    created: "2020-04-14T15:29:10.325574234+02:00"
     description: General-purpose web UI for Kubernetes clusters
-    digest: 1df48d6e779acea7ce5c2853137937289b6f23ab83eb5a09bf7e86a2a4ebed74
+    digest: 2bb13833d8a53ab3d76246d071ea6aac686ec2571a98a919eda177538346c3e7
     home: https://github.com/kubernetes/dashboard
     icon: https://raw.githubusercontent.com/kubernetes/kubernetes/master/logo/logo.svg
     keywords:
@@ -1430,14 +1430,14 @@ entries:
     sources:
     - https://github.com/kubernetes/dashboard
     urls:
-    - https://mesosphere.github.io/charts/staging/kubernetes-dashboard-2.0.0.tgz
+    - https://vespian.github.io/charts/staging/kubernetes-dashboard-2.0.0.tgz
     version: 2.0.0
   kudo:
   - apiVersion: v1
     appVersion: 0.9.0
-    created: 2020-04-14T10:27:07.485220058Z
+    created: "2020-04-14T15:29:10.327733396+02:00"
     description: Kubernetes Universal Declarative Operator
-    digest: 3ece513fe6d4acacb267e61bc16a5e1bf4db224ac93cef7fc85a7fbfbabca614
+    digest: 2beaa76421b3d89d06329cb5e864fc24fcd9983f81df904b8c942a059011b7a6
     home: https://kudo.dev
     icon: https://raw.githubusercontent.com/kudobuilder/www/master/content/.vuepress/public/favicon.ico
     maintainers:
@@ -1453,11 +1453,11 @@ entries:
     sources:
     - https://github.com/kudobuilder/kudo
     urls:
-    - https://mesosphere.github.io/charts/staging/kudo-0.1.4.tgz
+    - https://vespian.github.io/charts/staging/kudo-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v1
     appVersion: 0.9.0
-    created: 2020-04-14T10:27:07.484915028Z
+    created: "2020-04-14T15:29:10.327349615+02:00"
     description: Kubernetes Universal Declarative Operator
     digest: f5e19f546abc3476a7a36872417c448200cc0b3f6038202fe8435beb2d5b561e
     home: https://kudo.dev
@@ -1475,11 +1475,11 @@ entries:
     sources:
     - https://github.com/kudobuilder/kudo
     urls:
-    - https://mesosphere.github.io/charts/staging/kudo-0.1.3.tgz
+    - https://vespian.github.io/charts/staging/kudo-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
     appVersion: 0.8.0
-    created: 2020-04-14T10:27:07.484604755Z
+    created: "2020-04-14T15:29:10.326911573+02:00"
     description: Kubernetes Universal Declarative Operator
     digest: 59c27b800d7d5169a8c6b1ce17859025358d603f7641e2db5c70fb642bfe3556
     home: https://kudo.dev
@@ -1497,11 +1497,11 @@ entries:
     sources:
     - https://github.com/kudobuilder/kudo
     urls:
-    - https://mesosphere.github.io/charts/staging/kudo-0.1.2.tgz
+    - https://vespian.github.io/charts/staging/kudo-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v1
     appVersion: 0.7.4
-    created: 2020-04-14T10:27:07.484291715Z
+    created: "2020-04-14T15:29:10.326418528+02:00"
     description: Kubernetes Universal Declarative Operator
     digest: 66b804a3f6b760faa8e5e52c63b6808f3fb66373aa02406b0f331360cb416bf8
     home: https://kudo.dev
@@ -1519,11 +1519,11 @@ entries:
     sources:
     - https://github.com/kudobuilder/kudo
     urls:
-    - https://mesosphere.github.io/charts/staging/kudo-0.1.1.tgz
+    - https://vespian.github.io/charts/staging/kudo-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
     appVersion: 0.7.4
-    created: 2020-04-14T10:27:07.483967786Z
+    created: "2020-04-14T15:29:10.325978663+02:00"
     description: Kubernetes Universal Declarative Operator
     digest: dcb5a200294857d6cb88a73d460f43d404e8af72400d3c504cb70b34dc205530
     home: https://kudo.dev
@@ -1541,14 +1541,14 @@ entries:
     sources:
     - https://github.com/kudobuilder/kudo
     urls:
-    - https://mesosphere.github.io/charts/staging/kudo-0.1.0.tgz
+    - https://vespian.github.io/charts/staging/kudo-0.1.0.tgz
     version: 0.1.0
   local-path-provisioner:
   - apiVersion: v1
     appVersion: 0.0.12
-    created: 2020-04-14T10:27:07.485485566Z
+    created: "2020-04-14T15:29:10.328026716+02:00"
     description: Use HostPath for persistent local storage with Kubernetes
-    digest: ac3098b31231386197f12e5ba7f9eed0ae386c2da2e61615866317444599d1e7
+    digest: f1a094abb8bdd343b38aa0df78bdbad23692dc0af049411a3230934db912822d
     home: https://github.com/rancher/local-path-provisioner
     keywords:
     - storage
@@ -1559,16 +1559,16 @@ entries:
     sources:
     - https://github.com/rancher/local-path-provisioner
     urls:
-    - https://mesosphere.github.io/charts/staging/local-path-provisioner-0.0.12.tgz
+    - https://vespian.github.io/charts/staging/local-path-provisioner-0.0.12.tgz
     version: 0.0.12
   nfs-server-provisioner:
   - apiVersion: v1
     appVersion: 2.3.0
-    created: 2020-04-14T10:27:07.485911812Z
+    created: "2020-04-14T15:29:10.328493702+02:00"
     description: nfs-server-provisioner is an out-of-tree dynamic provisioner for
       Kubernetes. You can use it to quickly & easily deploy shared storage that works
       almost anywhere.
-    digest: 479261176ec784cb7ee8893f4ddd7d8b0253c577c27d871b9aa24484ef52f297
+    digest: efb56601581e2ae485c6f9c582d1d436386e22ea6f2f8a0fd857f93d2521239c
     home: https://github.com/kubernetes/charts/tree/master/stable/nfs-server-provisioner
     keywords:
     - nfs
@@ -1586,14 +1586,14 @@ entries:
     sources:
     - https://github.com/kubernetes-incubator/external-storage/tree/master/nfs
     urls:
-    - https://mesosphere.github.io/charts/staging/nfs-server-provisioner-0.6.0.tgz
+    - https://vespian.github.io/charts/staging/nfs-server-provisioner-0.6.0.tgz
     version: 0.6.0
   nvidia:
   - apiVersion: v1
     appVersion: 0.2.0
-    created: 2020-04-14T10:27:07.493230493Z
+    created: "2020-04-14T15:29:10.336616164+02:00"
     description: Nvidia GPU driver and device plugin for running Nvidia GPU
-    digest: c047a783af0e928a3d0ed2a39af2c572c0528d8a32fe0fddac3cd89f457b4254
+    digest: e93673747e1bd8924a9bf57891cf490045ccec89c3a2d5ec80c1b03305ee3efb
     home: http://github.com/mesosphere/charts/staging
     keywords:
     - gpu
@@ -1605,11 +1605,11 @@ entries:
     sources:
     - http://github.com/mesosphere/charts/staging
     urls:
-    - https://mesosphere.github.io/charts/staging/nvidia-0.3.3.tgz
+    - https://vespian.github.io/charts/staging/nvidia-0.3.3.tgz
     version: 0.3.3
   - apiVersion: v1
     appVersion: 0.2.0
-    created: 2020-04-14T10:27:07.492238061Z
+    created: "2020-04-14T15:29:10.335703211+02:00"
     description: Nvidia GPU driver and device plugin for running Nvidia GPU
     digest: 8b4c14e31d51fd6229d7ad4a56ac8fe108e78d3e52815dd5a304b5b77180e835
     home: http://github.com/mesosphere/charts/staging
@@ -1623,11 +1623,11 @@ entries:
     sources:
     - http://github.com/mesosphere/charts/staging
     urls:
-    - https://mesosphere.github.io/charts/staging/nvidia-0.3.2.tgz
+    - https://vespian.github.io/charts/staging/nvidia-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v1
     appVersion: 0.2.0
-    created: 2020-04-14T10:27:07.490985665Z
+    created: "2020-04-14T15:29:10.334543576+02:00"
     description: Nvidia GPU driver and device plugin for running Nvidia GPU
     digest: 8048862affcd76ab57bc55b2916ac239b5cf27c48cba1700fd93f2396a5faf91
     home: http://github.com/mesosphere/charts/staging
@@ -1640,11 +1640,11 @@ entries:
     sources:
     - http://github.com/mesosphere/charts/staging
     urls:
-    - https://mesosphere.github.io/charts/staging/nvidia-0.3.1.tgz
+    - https://vespian.github.io/charts/staging/nvidia-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v1
     appVersion: 0.2.0
-    created: 2020-04-14T10:27:07.489704493Z
+    created: "2020-04-14T15:29:10.333421861+02:00"
     description: Nvidia GPU driver and device plugin for running Nvidia GPU
     digest: 89b3de533593731ce400d021a459e4315d92c475147666d1655a8e455c21a2d9
     home: http://github.com/mesosphere/charts/staging
@@ -1657,11 +1657,11 @@ entries:
     sources:
     - http://github.com/mesosphere/charts/staging
     urls:
-    - https://mesosphere.github.io/charts/staging/nvidia-0.3.0.tgz
+    - https://vespian.github.io/charts/staging/nvidia-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.2.0
-    created: 2020-04-14T10:27:07.488703777Z
+    created: "2020-04-14T15:29:10.331794667+02:00"
     description: Nvidia GPU driver and device plugin for running Nvidia GPU
     digest: 68fdf1a80ec72712b3adf4fb10cb82c4e964140ac7aed48866346720f5776662
     home: https://docs.nvidia.com/datacenter/kubernetes/kubernetes-upstream/
@@ -1669,11 +1669,11 @@ entries:
     - name: gilbert88
     name: nvidia
     urls:
-    - https://mesosphere.github.io/charts/staging/nvidia-0.2.0.tgz
+    - https://vespian.github.io/charts/staging/nvidia-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.1.1
-    created: 2020-04-14T10:27:07.487648559Z
+    created: "2020-04-14T15:29:10.330675898+02:00"
     description: Nvidia GPU driver and device plugin for running Nvidia GPU
     digest: 48a3eca7afdd16ac9c85bd6a1eb72182fb275287b4c7a81c035a0a2d62e6961b
     home: https://docs.nvidia.com/datacenter/kubernetes/kubernetes-upstream/
@@ -1681,11 +1681,11 @@ entries:
     - name: gilbert88
     name: nvidia
     urls:
-    - https://mesosphere.github.io/charts/staging/nvidia-0.1.2.tgz
+    - https://vespian.github.io/charts/staging/nvidia-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2020-04-14T10:27:07.487077471Z
+    created: "2020-04-14T15:29:10.329971195+02:00"
     description: Nvidia GPU driver and device plugin for running Nvidia GPU
     digest: 13c678990450e32fd5c2e6d369803dcff1d809c9803d54c5959cc979666344f8
     home: https://docs.nvidia.com/datacenter/kubernetes/kubernetes-upstream/
@@ -1693,11 +1693,11 @@ entries:
     - name: gilbert88
     name: nvidia
     urls:
-    - https://mesosphere.github.io/charts/staging/nvidia-0.1.1.tgz
+    - https://vespian.github.io/charts/staging/nvidia-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
     appVersion: 0.1.0
-    created: 2020-04-14T10:27:07.486511233Z
+    created: "2020-04-14T15:29:10.329263196+02:00"
     description: Nvidia GPU driver and device plugin for running Nvidia GPU
     digest: ebd5ccf36730afda48709d070d704b66e6f1c43e4bbf313f8d19a946c0ed202f
     home: https://docs.nvidia.com/datacenter/kubernetes/kubernetes-upstream/
@@ -1705,15 +1705,15 @@ entries:
     - name: gilbert88
     name: nvidia
     urls:
-    - https://mesosphere.github.io/charts/staging/nvidia-0.1.0.tgz
+    - https://vespian.github.io/charts/staging/nvidia-0.1.0.tgz
     version: 0.1.0
   prometheus-operator:
   - apiVersion: v1
     appVersion: 0.35.0
-    created: 2020-04-14T10:27:07.899170219Z
+    created: "2020-04-14T15:29:10.866212116+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
-    digest: c11dbe0ac775e9ce6a8a111648e46595d1b69d0b9e9c43c0caf37ccb6453d2cb
+    digest: 909b32fe240b0ec672baa637a440df62484dcc89f4424bd3220226b3890721ef
     engine: gotpl
     home: https://github.com/coreos/prometheus-operator
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
@@ -1732,11 +1732,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.8.4.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.8.4.tgz
     version: 8.8.4
   - apiVersion: v1
     appVersion: 0.35.0
-    created: 2020-04-14T10:27:07.886229347Z
+    created: "2020-04-14T15:29:10.853608725+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 80ecf055692f4cee918723a9c8d95c9e427e03c6bf36043c346aa87986c1947e
@@ -1758,11 +1758,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.8.3.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.8.3.tgz
     version: 8.8.3
   - apiVersion: v1
     appVersion: 0.35.0
-    created: 2020-04-14T10:27:07.873140428Z
+    created: "2020-04-14T15:29:10.836197632+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: d0da77114be09456ac4e25488283c391c69ce7ae6cf42b7d5defb4a50d250cc5
@@ -1784,11 +1784,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.8.2.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.8.2.tgz
     version: 8.8.2
   - apiVersion: v1
     appVersion: 0.35.0
-    created: 2020-04-14T10:27:07.859065717Z
+    created: "2020-04-14T15:29:10.818302933+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: b3b7ae005e2f974be7adf5d6d1193302c9587753dd647cbe687783cf5ef0b916
@@ -1810,11 +1810,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.8.1.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.8.1.tgz
     version: 8.8.1
   - apiVersion: v1
     appVersion: 0.35.0
-    created: 2020-04-14T10:27:07.84531391Z
+    created: "2020-04-14T15:29:10.806416789+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 23721fcde353d1d2534172d2599a328ca5750ce9197b35491cfb25c3db5d6761
@@ -1836,11 +1836,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.8.0.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.8.0.tgz
     version: 8.8.0
   - apiVersion: v1
     appVersion: 0.35.0
-    created: 2020-04-14T10:27:07.831941442Z
+    created: "2020-04-14T15:29:10.788221404+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 6a3b1e92b6df3acabd700a47fff10d20cbf8dfc5e676711376e741756b588412
@@ -1862,11 +1862,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.7.5.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.7.5.tgz
     version: 8.7.5
   - apiVersion: v1
     appVersion: 0.35.0
-    created: 2020-04-14T10:27:07.818676358Z
+    created: "2020-04-14T15:29:10.772770479+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 988d398ef88fe467cf1939f7697e9c4bc33331dae901a13ee711e17bb3910193
@@ -1888,11 +1888,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.7.4.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.7.4.tgz
     version: 8.7.4
   - apiVersion: v1
     appVersion: 0.35.0
-    created: 2020-04-14T10:27:07.804813589Z
+    created: "2020-04-14T15:29:10.754057614+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 3a600fe42a5441e0a229dc6821a54711b01de6d845b8d09b43e3152bef14c576
@@ -1914,11 +1914,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.7.3.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.7.3.tgz
     version: 8.7.3
   - apiVersion: v1
     appVersion: 0.35.0
-    created: 2020-04-14T10:27:07.791249479Z
+    created: "2020-04-14T15:29:10.739439072+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: a6d2459bf32c3b9f8b147cefc3a2fce2d5da925c202afd1cd848f9db0c575268
@@ -1940,11 +1940,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.7.2.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.7.2.tgz
     version: 8.7.2
   - apiVersion: v1
     appVersion: 0.35.0
-    created: 2020-04-14T10:27:07.777507902Z
+    created: "2020-04-14T15:29:10.728776754+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 1e89a9369a9e7dd9e1a6107eb452ccdc57ac19caee4116a6c405f1e64611c259
@@ -1966,11 +1966,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.7.1.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.7.1.tgz
     version: 8.7.1
   - apiVersion: v1
     appVersion: 0.34.0
-    created: 2020-04-14T10:27:07.673351983Z
+    created: "2020-04-14T15:29:10.592100919+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 38c1f4d2a4efb0b48e1a357a7f7431f4c4439b8ff55fed9bed87928aba69708c
@@ -1992,11 +1992,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.3.11.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.3.11.tgz
     version: 8.3.11
   - apiVersion: v1
     appVersion: 0.34.0
-    created: 2020-04-14T10:27:07.660124796Z
+    created: "2020-04-14T15:29:10.57300291+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: b2e92ccd279b10743a1faaa2c8df489153cd739d059e615f584042be17026470
@@ -2018,11 +2018,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.3.10.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.3.10.tgz
     version: 8.3.10
   - apiVersion: v1
     appVersion: 0.34.0
-    created: 2020-04-14T10:27:07.76380704Z
+    created: "2020-04-14T15:29:10.712201389+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 6119c6a515598bd7ff6482e31772a1a42eb0195b5c52037f8f5e16fc4be05cc6
@@ -2044,11 +2044,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.3.9.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.3.9.tgz
     version: 8.3.9
   - apiVersion: v1
     appVersion: 0.34.0
-    created: 2020-04-14T10:27:07.751508334Z
+    created: "2020-04-14T15:29:10.695589166+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: cb6c4159991dff489c8cb5c0a23dfd2004c1c1c917cbf11526fe43e4763c7452
@@ -2070,11 +2070,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.3.8.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.3.8.tgz
     version: 8.3.8
   - apiVersion: v1
     appVersion: 0.34.0
-    created: 2020-04-14T10:27:07.739103374Z
+    created: "2020-04-14T15:29:10.676549578+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 1452a5df6e2897a5a1a2dae3e3371666b04ec0d6a166d900a7b59c5887d3e483
@@ -2096,11 +2096,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.3.7.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.3.7.tgz
     version: 8.3.7
   - apiVersion: v1
     appVersion: 0.34.0
-    created: 2020-04-14T10:27:07.725002473Z
+    created: "2020-04-14T15:29:10.662200081+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: df4039f6bc9d327bac6b77d9cd26bb45c39279de11637b2cb6633df5ba61bb65
@@ -2122,11 +2122,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.3.6.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.3.6.tgz
     version: 8.3.6
   - apiVersion: v1
     appVersion: 0.34.0
-    created: 2020-04-14T10:27:07.712555338Z
+    created: "2020-04-14T15:29:10.648357526+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: c5b19592b869039a37595df28c118747a2a5da9e4b62d7d906b3a66975eff558
@@ -2148,11 +2148,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.3.5.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.3.5.tgz
     version: 8.3.5
   - apiVersion: v1
     appVersion: 0.34.0
-    created: 2020-04-14T10:27:07.699257463Z
+    created: "2020-04-14T15:29:10.629307729+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: feec94ca9895169878579a3dd20c02051be4001f1fcc853967f6106fd40109b7
@@ -2174,11 +2174,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.3.4.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.3.4.tgz
     version: 8.3.4
   - apiVersion: v1
     appVersion: 0.34.0
-    created: 2020-04-14T10:27:07.68647707Z
+    created: "2020-04-14T15:29:10.611742437+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 471016586932b0123d36920c20e835ab4535e13c5b0d6b56e1446d4a96ed4df6
@@ -2200,11 +2200,11 @@ entries:
     - https://coreos.com/operators/prometheus
     tillerVersion: '>=2.12.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-8.3.3.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-8.3.3.tgz
     version: 8.3.3
   - apiVersion: v1
     appVersion: 0.31.1
-    created: 2020-04-14T10:27:07.647671839Z
+    created: "2020-04-14T15:29:10.556374496+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: d61689d7e429209500706e68c8d68207f2ce01b83cb961e8baba91e9bf8beb87
@@ -2224,11 +2224,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.19.7.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.19.7.tgz
     version: 5.19.7
   - apiVersion: v1
     appVersion: 0.31.1
-    created: 2020-04-14T10:27:07.637592504Z
+    created: "2020-04-14T15:29:10.540707226+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 1e751d9968deff5f3fcac461eac7a6ff8283ed52865dc1b9369f610cc33cc60a
@@ -2248,11 +2248,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.19.6.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.19.6.tgz
     version: 5.19.6
   - apiVersion: v1
     appVersion: 0.31.1
-    created: 2020-04-14T10:27:07.627902757Z
+    created: "2020-04-14T15:29:10.526360735+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: cf4c3ca8588b4f94e38b4c2178b15daa7d761f2d4119d33c044b04bd6119c34a
@@ -2272,11 +2272,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.19.5.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.19.5.tgz
     version: 5.19.5
   - apiVersion: v1
     appVersion: 0.31.1
-    created: 2020-04-14T10:27:07.617884066Z
+    created: "2020-04-14T15:29:10.512290392+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 2aeb8698c2c58f69b0e9ef46759fbdebb7cb0538b20ef45ac3181b5af40d40d9
@@ -2296,11 +2296,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.19.4.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.19.4.tgz
     version: 5.19.4
   - apiVersion: v1
     appVersion: 0.31.1
-    created: 2020-04-14T10:27:07.60778449Z
+    created: "2020-04-14T15:29:10.49756038+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 97cdc51c1d359b5ac5a3a2e7aca658c07bba7d6baa9a9aef8c5e8478220e1c8a
@@ -2320,11 +2320,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.19.3.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.19.3.tgz
     version: 5.19.3
   - apiVersion: v1
     appVersion: 0.31.1
-    created: 2020-04-14T10:27:07.597850831Z
+    created: "2020-04-14T15:29:10.480249726+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: f860fc969f6a9b5fe7d6f7bcdfea214edeb76254d4c90961e63aa0b670ed895d
@@ -2344,11 +2344,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.19.2.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.19.2.tgz
     version: 5.19.2
   - apiVersion: v1
     appVersion: 0.31.1
-    created: 2020-04-14T10:27:07.588825447Z
+    created: "2020-04-14T15:29:10.467210428+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: a5cc60cc6b93002a1dc77e1c090e7fe93acef1e347feb737ff01f35a00389315
@@ -2368,11 +2368,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.19.1.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.19.1.tgz
     version: 5.19.1
   - apiVersion: v1
     appVersion: 0.29.0
-    created: 2020-04-14T10:27:07.579970515Z
+    created: "2020-04-14T15:29:10.453849396+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 055fc59a8950888594b2492b6c41abbecbb8f61eb8d9328008f50f677f5b7ba2
@@ -2390,11 +2390,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.10.9.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.10.9.tgz
     version: 5.10.9
   - apiVersion: v1
     appVersion: 0.29.0
-    created: 2020-04-14T10:27:07.571422102Z
+    created: "2020-04-14T15:29:10.440479306+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 0bedf6edc04136d93331fb1843f47817f8ca4b17b85460a9d0bc5627907abe3f
@@ -2412,11 +2412,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.10.8.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.10.8.tgz
     version: 5.10.8
   - apiVersion: v1
     appVersion: 0.29.0
-    created: 2020-04-14T10:27:07.562843387Z
+    created: "2020-04-14T15:29:10.427428967+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: ad37143ebb687bb1ac9529da72c97f423820a0d755778f74c71c35e6db16d0ce
@@ -2434,11 +2434,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.10.7.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.10.7.tgz
     version: 5.10.7
   - apiVersion: v1
     appVersion: 0.29.0
-    created: 2020-04-14T10:27:07.554317299Z
+    created: "2020-04-14T15:29:10.417143676+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 88c4250a6a28dfc9a249b8b17bbb3c6209de270ad6721c9e79aa63361b7b5ecc
@@ -2456,11 +2456,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.10.6.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.10.6.tgz
     version: 5.10.6
   - apiVersion: v1
     appVersion: 0.29.0
-    created: 2020-04-14T10:27:07.545977352Z
+    created: "2020-04-14T15:29:10.407730362+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 9bdd15570e4c9bb6d9fe6fb58f9f51948ff1ad3c650b84b8e3837e8a898b1cd2
@@ -2478,11 +2478,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.10.5.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.10.5.tgz
     version: 5.10.5
   - apiVersion: v1
     appVersion: 0.29.0
-    created: 2020-04-14T10:27:07.537526899Z
+    created: "2020-04-14T15:29:10.395581284+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 07d9a370120ebf873e0e4f02ae7588a874bb13aa133dd4dbb2c761e7356e0d1e
@@ -2500,11 +2500,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.10.4.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.10.4.tgz
     version: 5.10.4
   - apiVersion: v1
     appVersion: 0.29.0
-    created: 2020-04-14T10:27:07.528952673Z
+    created: "2020-04-14T15:29:10.383375058+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: adb71ee73a50c2ab5f0e229fe93267f1f2af6480d00f8bae43fa4e50a5ec61fc
@@ -2522,11 +2522,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.10.3.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.10.3.tgz
     version: 5.10.3
   - apiVersion: v1
     appVersion: 0.29.0
-    created: 2020-04-14T10:27:07.519601834Z
+    created: "2020-04-14T15:29:10.370818797+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 03a9f9b0f3f314c36ade5d4c0753907f270e4e5ca8093381aa013c26f34a7d1a
@@ -2544,11 +2544,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.10.2.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.10.2.tgz
     version: 5.10.2
   - apiVersion: v1
     appVersion: 0.29.0
-    created: 2020-04-14T10:27:07.510398875Z
+    created: "2020-04-14T15:29:10.359783999+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: 1263d0f1261bfc84c34504c3f44bcb2e1d936551a733aa8fe31effd3f9035266
@@ -2566,11 +2566,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.10.1.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.10.1.tgz
     version: 5.10.1
   - apiVersion: v1
     appVersion: 0.29.0
-    created: 2020-04-14T10:27:07.50141966Z
+    created: "2020-04-14T15:29:10.348381583+02:00"
     description: Provides easy monitoring definitions for Kubernetes services, and
       deployment and management of Prometheus instances.
     digest: c34186f40539eace19bd69793140e4bd79572362b68881f22eb99466079485e2
@@ -2588,25 +2588,25 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://mesosphere.github.io/charts/staging/prometheus-operator-5.10.0.tgz
+    - https://vespian.github.io/charts/staging/prometheus-operator-5.10.0.tgz
     version: 5.10.0
   test:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2020-04-14T10:27:07.899414515Z
+    created: "2020-04-14T15:29:10.866438641+02:00"
     description: A Helm chart for Kubernetes
     digest: d07d36886354e77838f74ca60211e8246dd4575267e59527ede41513b5cc1ae6
     name: test
     urls:
-    - https://mesosphere.github.io/charts/staging/test-0.1.0.tgz
+    - https://vespian.github.io/charts/staging/test-0.1.0.tgz
     version: 0.1.0
   traefik:
   - apiVersion: v1
     appVersion: 1.7.23
-    created: 2020-04-14T10:27:07.914452687Z
+    created: "2020-04-14T15:29:10.886096769+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
-    digest: f3edb5f0802894562f72c131370d7f06ee912ad183b9472214fe5e2637cc1f94
+    digest: bc94a405f529b9f2d8bd90156fe68e89003065bc7e8b490c09278101fcdb5b40
     engine: gotpl
     home: https://traefik.io/
     icon: https://docs.traefik.io/img/traefik.logo.png
@@ -2629,11 +2629,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.18.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.18.tgz
     version: 1.72.18
   - apiVersion: v1
     appVersion: 1.7.23
-    created: 2020-04-14T10:27:07.913276906Z
+    created: "2020-04-14T15:29:10.88433852+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: aec29ee2d2be47413ab7a38ecf4baf4e60cca882a82396affdcc7cc109ab894f
@@ -2659,11 +2659,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.17.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.17.tgz
     version: 1.72.17
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.912075872Z
+    created: "2020-04-14T15:29:10.882525138+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: cd3767564af475fab562c56752c2f98e3298292cc838bfe672a64d755c19d63f
@@ -2689,11 +2689,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.16.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.16.tgz
     version: 1.72.16
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.910846842Z
+    created: "2020-04-14T15:29:10.880691807+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: 53fb6394a62d8fe4c6a4c739b8a60136ad8021cc5e985f7bd0f45b1b59091efa
@@ -2719,11 +2719,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.15.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.15.tgz
     version: 1.72.15
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.909169841Z
+    created: "2020-04-14T15:29:10.878850762+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: 60f6821019972b38d82227049b9b277e1817479302e478f5ba2223e76e0fa97c
@@ -2749,11 +2749,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.14.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.14.tgz
     version: 1.72.14
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.908003737Z
+    created: "2020-04-14T15:29:10.876797199+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: d83731e5d344521fe36ce01b8cce6bb263bc8cf9248c6e1f5baa8d1535c2e948
@@ -2779,11 +2779,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.13.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.13.tgz
     version: 1.72.13
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.906810716Z
+    created: "2020-04-14T15:29:10.875583621+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: edef5ff485722b464bd70d6c6d49ed83bafc36e6ec34ee7ebaa7d00a304f5001
@@ -2809,11 +2809,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.12.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.12.tgz
     version: 1.72.12
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.90565032Z
+    created: "2020-04-14T15:29:10.874367158+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: ab2704ec2be7921a1fdcacc09b4837340ff1aff819d65a5c95650a45adb0a10d
@@ -2839,11 +2839,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.11.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.11.tgz
     version: 1.72.11
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.904481356Z
+    created: "2020-04-14T15:29:10.873152479+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: c47776151be774296923978ab9b14e9fbff5d0cf16982fd356ce9cec8502542a
@@ -2869,11 +2869,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.10.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.10.tgz
     version: 1.72.10
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.924039331Z
+    created: "2020-04-14T15:29:10.901450953+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: 21fbc53064b2a0db764ded916681dfbb91ee31abba483094f7e7d6b27b9dfde2
@@ -2899,11 +2899,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.9.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.9.tgz
     version: 1.72.9
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.922891399Z
+    created: "2020-04-14T15:29:10.899602654+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: 6f3d6fcbe8a87abe7d303fd719af932b37cf3ad4fa857d5875d3db1bf1b859ef
@@ -2929,11 +2929,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.8.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.8.tgz
     version: 1.72.8
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.921768951Z
+    created: "2020-04-14T15:29:10.897715432+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: e8d3a17a4f20aa1ea198d9cde5d94fc72637565c3f31b26131b0b037197c45c8
@@ -2959,11 +2959,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.7.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.7.tgz
     version: 1.72.7
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.920631091Z
+    created: "2020-04-14T15:29:10.895857436+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: 13bf931e58c5aa940a609d4f27b1a1160ce0a9071aef9deb3a2cb9225390f0eb
@@ -2989,11 +2989,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.6.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.6.tgz
     version: 1.72.6
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.919023814Z
+    created: "2020-04-14T15:29:10.893948403+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: efde17f47542af4f16d0a38ecc458b06a7bff1fa2e48c119fa719bda5533364b
@@ -3019,11 +3019,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.5.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.5.tgz
     version: 1.72.5
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.917880755Z
+    created: "2020-04-14T15:29:10.892035073+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: 01a94519c3d28def7052ec283501b622d11078f11fe7ad9737b472a2f5f3cbe6
@@ -3049,11 +3049,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.4.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.4.tgz
     version: 1.72.4
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.916739748Z
+    created: "2020-04-14T15:29:10.889695141+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: 6b729f5ae8792ea6077a3c6e6709bfa7d6e594cec41fbbf4c8a3fd1fddc125b8
@@ -3079,11 +3079,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.3.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.3.tgz
     version: 1.72.3
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.915585895Z
+    created: "2020-04-14T15:29:10.887893611+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: 2452a70ae7bff1ffbdb74a97303f1b25cbd34e59d27140a602af02881626b9bd
@@ -3109,11 +3109,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.2.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.2.tgz
     version: 1.72.2
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.90328627Z
+    created: "2020-04-14T15:29:10.87194337+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: b920941d7e7e9c435d367616a81eb71a9ea619a158f2baee07e44952b16a92e5
@@ -3139,11 +3139,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.1.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.1.tgz
     version: 1.72.1
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.902185195Z
+    created: "2020-04-14T15:29:10.870263287+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: c8a356700064625fb7d39d57907254a49f95a12b640facce5cafbb6aa795643e
@@ -3169,11 +3169,11 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.72.0.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.72.0.tgz
     version: 1.72.0
   - apiVersion: v1
     appVersion: 1.7.12
-    created: 2020-04-14T10:27:07.901027766Z
+    created: "2020-04-14T15:29:10.868494168+02:00"
     description: A Traefik based Kubernetes ingress controller with Let's Encrypt
       support
     digest: 2ad3ff530f0d01fb81d8c75a2fb6fff82eb4994a6a34994c0cbe76349c56dc18
@@ -3199,15 +3199,15 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/helm/charts/tree/master/stable/traefik
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-1.71.3.tgz
+    - https://vespian.github.io/charts/staging/traefik-1.71.3.tgz
     version: 1.71.3
   traefik-forward-auth:
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.929433256Z
+    created: "2020-04-14T15:29:10.910346675+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
-    digest: 64c84e190d5b6a2067a0739e8b5b0e7018bb6e72f6b544ed5d2a135f587ca0f2
+    digest: a4a607acca0a9b049c415f6db6848abd1766ca14c19dfea0b04338aff5834b35
     home: https://github.com/mesosphere/traefik-forward-auth
     keywords:
     - traefik-forward-auth
@@ -3220,11 +3220,11 @@ entries:
       name: jr0d
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.2.14.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.2.14.tgz
     version: 0.2.14
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.929020293Z
+    created: "2020-04-14T15:29:10.909685093+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: 5ac32d0d03dbe017ca4b1680a71695ea450cefb436e6166c1ba141b125390b9f
@@ -3240,11 +3240,11 @@ entries:
       name: jr0d
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.2.13.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.2.13.tgz
     version: 0.2.13
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.92861126Z
+    created: "2020-04-14T15:29:10.909056984+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: 4a61c3245a55c051e389b19b1811a263e1f10eb0a752608f213c3eb78283477e
@@ -3260,11 +3260,11 @@ entries:
       name: jr0d
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.2.12.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.2.12.tgz
     version: 0.2.12
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.927722911Z
+    created: "2020-04-14T15:29:10.908423055+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: 9121bdf91b1e0cb3f1914ae285e25cea8dd1b8c047dd8eb4596de54934e559af
@@ -3280,11 +3280,11 @@ entries:
       name: jr0d
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.2.11.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.2.11.tgz
     version: 0.2.11
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.927179121Z
+    created: "2020-04-14T15:29:10.90778101+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: f080c9e6c89d94474f856edaadec32e145f973f2629c04934caed85141366fa3
@@ -3300,11 +3300,11 @@ entries:
       name: jr0d
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.2.10.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.2.10.tgz
     version: 0.2.10
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.932409392Z
+    created: "2020-04-14T15:29:10.915793526+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: 019b13fbe2b65c16c7a8b43c42073c64925b2a22619632e2655c65991001d01a
@@ -3320,11 +3320,11 @@ entries:
       name: jr0d
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.2.9.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.2.9.tgz
     version: 0.2.9
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.932022053Z
+    created: "2020-04-14T15:29:10.915093703+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: 8ed471e88df5b6a4afd26748f0803673ebb9270ba7c76a75fc67bd331b9f0e1e
@@ -3338,11 +3338,11 @@ entries:
       name: jongiddy
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.2.8.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.2.8.tgz
     version: 0.2.8
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.931632044Z
+    created: "2020-04-14T15:29:10.91439958+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: a05adfd3d961534df0ce78d4428b67ff6573f1d4e071c97df33e57dcd6ce390d
@@ -3356,11 +3356,11 @@ entries:
       name: jongiddy
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.2.7.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.2.7.tgz
     version: 0.2.7
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.931264112Z
+    created: "2020-04-14T15:29:10.913731968+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: fba05f0133974fa1bc870db3069c113308c6a6bdb82fb6563f36958be2039ffc
@@ -3374,11 +3374,11 @@ entries:
       name: jongiddy
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.2.6.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.2.6.tgz
     version: 0.2.6
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.930905346Z
+    created: "2020-04-14T15:29:10.913048204+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: 0a93e9b541782f02dd3a54eba204afd61292209d60b875b254379d2a7d5527e8
@@ -3392,11 +3392,11 @@ entries:
       name: jongiddy
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.2.5.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.2.5.tgz
     version: 0.2.5
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.930525089Z
+    created: "2020-04-14T15:29:10.912388657+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: aee2ed78945566fc4636d09bac6926b15bd67f9e028c30bb13ec4bd88be96a4d
@@ -3410,11 +3410,11 @@ entries:
       name: jongiddy
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.2.4.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.2.4.tgz
     version: 0.2.4
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.930167473Z
+    created: "2020-04-14T15:29:10.911730932+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: 4837e0d7e4193902c0633acee9dc878c215bc2ae6b1fcac8ca10682487513226
@@ -3428,11 +3428,11 @@ entries:
       name: jongiddy
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.2.3.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.2.3.tgz
     version: 0.2.3
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.929806131Z
+    created: "2020-04-14T15:29:10.911049964+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: 271c3f61e53a2c46437f0c169e6ac844f8e4fcc607e9cf1567424988b2d8e3cd
@@ -3446,11 +3446,11 @@ entries:
       name: jongiddy
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.2.2.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.926785439Z
+    created: "2020-04-14T15:29:10.907137182+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: 7290faed495ea9dcef68546bbe36a24fc5496005a9c78095cc6683e0aad604ec
@@ -3464,11 +3464,11 @@ entries:
       name: jongiddy
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.2.1.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.926438175Z
+    created: "2020-04-14T15:29:10.906384359+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: 0268d932f2e9158e0eddd75c92437b40fcf756a417f3988bb108ca06f3074ce8
@@ -3482,11 +3482,11 @@ entries:
       name: jongiddy
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.2.0.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.926090089Z
+    created: "2020-04-14T15:29:10.905375476+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: 1f414c4ed835a24b2dffa9c0aea556c570c7b27b5fb01f3d1a180a52714fa427
@@ -3500,11 +3500,11 @@ entries:
       name: jongiddy
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.1.6.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.1.6.tgz
     version: 0.1.6
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.925734214Z
+    created: "2020-04-14T15:29:10.904574133+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: 00fcc7e35fc3ca79c8dbfa6da2f4e8fecac63b33cb8c20674e649a38bdd61d73
@@ -3518,11 +3518,11 @@ entries:
       name: jongiddy
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.1.5.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.1.5.tgz
     version: 0.1.5
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.925370661Z
+    created: "2020-04-14T15:29:10.903918793+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: 319e36602dec4508c19a3b106703730a3cc4042905cc60acb59339bb1d2c0c1a
@@ -3536,11 +3536,11 @@ entries:
       name: jongiddy
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.1.4.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.925043503Z
+    created: "2020-04-14T15:29:10.903262322+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: c58c8f7bdd0ee2d267809e9089d32cdcef7e81f614d3f4bbc730b884bc2620df
@@ -3554,11 +3554,11 @@ entries:
       name: jongiddy
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.1.3.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.924707818Z
+    created: "2020-04-14T15:29:10.9026327+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: c88663f8cfca74df65d9a298fe59a649aa01f096edf85bbfa3cd4295b3d169e1
@@ -3572,11 +3572,11 @@ entries:
       name: Jonathan Giddy
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.1.2.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v1
     appVersion: latest
-    created: 2020-04-14T10:27:07.92437713Z
+    created: "2020-04-14T15:29:10.902037012+02:00"
     description: Minimal forward authentication service that provides OIDC based login
       and authentication for the traefik reverse proxy
     digest: f825b48d33eb5ebf688b510b547ea2f72d04b513f2aae03d4aa4edfc83328991
@@ -3590,14 +3590,14 @@ entries:
       name: Jonathan Giddy
     name: traefik-forward-auth
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik-forward-auth-0.1.1.tgz
+    - https://vespian.github.io/charts/staging/traefik-forward-auth-0.1.1.tgz
     version: 0.1.1
   traefik2:
   - apiVersion: v1
     appVersion: 2.1.1
-    created: 2020-04-14T10:27:07.932950237Z
+    created: "2020-04-14T15:29:10.916241237+02:00"
     description: A Traefik based Kubernetes ingress controller
-    digest: 7d90a79dffee5b66e8b2385408e84cf959b63edd3e052f0c72bea39f2bd14e76
+    digest: fffcb382bbbd93c621e81a233dbb712ba2ddaadb70daa9b237b22ed32e35b0e1
     engine: gotpl
     home: https://traefik.io/
     icon: http://traefik.io/traefik.logo.png
@@ -3616,12 +3616,35 @@ entries:
     - https://github.com/containous/traefik
     - https://github.com/containous/traefik-helm-chart
     urls:
-    - https://mesosphere.github.io/charts/staging/traefik2-3.3.2.tgz
+    - https://vespian.github.io/charts/staging/traefik2-3.3.2.tgz
     version: 3.3.2
   velero:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: 2020-04-14T10:27:07.949262734Z
+    created: "2020-04-14T15:29:10.936666886+02:00"
+    description: A Helm chart for velero
+    digest: 5521d3a068fb44df06f6b252c73b3c79193bfb44bd36a6eb701e14da36c3b71e
+    home: https://github.com/heptio/velero
+    icon: https://cdn-images-1.medium.com/max/1600/1*-9mb3AKnKdcL_QD3CMnthQ.png
+    maintainers:
+    - email: d-caruso@hotmail.it
+      name: domcar
+    - email: hfernandez@mesosphere.com
+      name: hectorj2f
+    - email: brubakern@vmware.com
+      name: nrb
+    - email: aadnan@vmware.com
+      name: prydonius
+    name: velero
+    sources:
+    - https://github.com/heptio/velero
+    tillerVersion: '>=2.10.0'
+    urls:
+    - https://vespian.github.io/charts/staging/velero-3.0.4.tgz
+    version: 3.0.4
+  - apiVersion: v1
+    appVersion: 1.0.1
+    created: "2020-04-14T15:29:10.935479768+02:00"
     description: A Helm chart for velero
     digest: be9642e9579a9351b4de78bd80f295de3baa6a6b7d28c6a09887432f3c350f35
     home: https://github.com/heptio/velero
@@ -3640,11 +3663,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-3.0.3.tgz
+    - https://vespian.github.io/charts/staging/velero-3.0.3.tgz
     version: 3.0.3
   - apiVersion: v1
     appVersion: 1.0.1
-    created: 2020-04-14T10:27:07.947811882Z
+    created: "2020-04-14T15:29:10.934266291+02:00"
     description: A Helm chart for velero
     digest: 541ca3e3880614f9b0a60c1177dee6d6bdd39dc4df8b037bd6532163b5eb6baa
     home: https://github.com/heptio/velero
@@ -3663,11 +3686,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-3.0.2.tgz
+    - https://vespian.github.io/charts/staging/velero-3.0.2.tgz
     version: 3.0.2
   - apiVersion: v1
     appVersion: 1.0.1
-    created: 2020-04-14T10:27:07.946328834Z
+    created: "2020-04-14T15:29:10.933070377+02:00"
     description: A Helm chart for velero
     digest: 17dc4daecc1fc21559133cf04a6ebb4a41d505c8b0fa287aa21c8528b83a23fc
     home: https://github.com/heptio/velero
@@ -3686,11 +3709,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-3.0.1.tgz
+    - https://vespian.github.io/charts/staging/velero-3.0.1.tgz
     version: 3.0.1
   - apiVersion: v1
     appVersion: 1.0.1
-    created: 2020-04-14T10:27:07.944204757Z
+    created: "2020-04-14T15:29:10.931869964+02:00"
     description: A Helm chart for velero
     digest: 1824829e8685786df4b061932d6e63a8fbeeb80bf3d9ab2eb9d868a327f59921
     home: https://github.com/heptio/velero
@@ -3709,11 +3732,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-3.0.0.tgz
+    - https://vespian.github.io/charts/staging/velero-3.0.0.tgz
     version: 3.0.0
   - apiVersion: v1
     appVersion: 1.0.1
-    created: 2020-04-14T10:27:07.937357082Z
+    created: "2020-04-14T15:29:10.922284217+02:00"
     description: A Helm chart for velero
     digest: dc3e5ddb3a447a95c27598b6c959f86322b50a04d83e412ce14fff6eb9ae5355
     home: https://github.com/heptio/velero
@@ -3732,11 +3755,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-2.2.11.tgz
+    - https://vespian.github.io/charts/staging/velero-2.2.11.tgz
     version: 2.2.11
   - apiVersion: v1
     appVersion: 1.0.1
-    created: 2020-04-14T10:27:07.936212232Z
+    created: "2020-04-14T15:29:10.9212788+02:00"
     description: A Helm chart for velero
     digest: 523ddb0daada17a44ac198356c94e32a1f32328e46512e87915a8e0d812508ae
     home: https://github.com/heptio/velero
@@ -3755,11 +3778,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-2.2.10.tgz
+    - https://vespian.github.io/charts/staging/velero-2.2.10.tgz
     version: 2.2.10
   - apiVersion: v1
     appVersion: 1.0.1
-    created: 2020-04-14T10:27:07.942743646Z
+    created: "2020-04-14T15:29:10.930100052+02:00"
     description: A Helm chart for velero
     digest: 340e343fdc922a57756943322782d7db90b4031a5e2f120073396fb949770076
     home: https://github.com/heptio/velero
@@ -3778,11 +3801,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-2.2.9.tgz
+    - https://vespian.github.io/charts/staging/velero-2.2.9.tgz
     version: 2.2.9
   - apiVersion: v1
     appVersion: 1.0.1
-    created: 2020-04-14T10:27:07.94206522Z
+    created: "2020-04-14T15:29:10.929453058+02:00"
     description: A Helm chart for velero
     digest: 24b65e520c94696010f5887a9c5c8501d25bc291ab7acd3641307f0cca44b972
     home: https://github.com/heptio/velero
@@ -3801,11 +3824,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-2.2.8.tgz
+    - https://vespian.github.io/charts/staging/velero-2.2.8.tgz
     version: 2.2.8
   - apiVersion: v1
     appVersion: 1.0.1
-    created: 2020-04-14T10:27:07.941398046Z
+    created: "2020-04-14T15:29:10.928801065+02:00"
     description: A Helm chart for velero
     digest: e514308f2b319071fd335f7e98fcb8e8ceff01c115960027c43a2efe1c205226
     home: https://github.com/heptio/velero
@@ -3824,11 +3847,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-2.2.7.tgz
+    - https://vespian.github.io/charts/staging/velero-2.2.7.tgz
     version: 2.2.7
   - apiVersion: v1
     appVersion: 1.0.1
-    created: 2020-04-14T10:27:07.940732941Z
+    created: "2020-04-14T15:29:10.928143591+02:00"
     description: A Helm chart for velero
     digest: 22d9ed7600d9d9046d881b2359c64248b93ccccda2bc3ba7727491390ace2c37
     home: https://github.com/heptio/velero
@@ -3847,11 +3870,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-2.2.6.tgz
+    - https://vespian.github.io/charts/staging/velero-2.2.6.tgz
     version: 2.2.6
   - apiVersion: v1
     appVersion: 1.0.1
-    created: 2020-04-14T10:27:07.940062681Z
+    created: "2020-04-14T15:29:10.927102096+02:00"
     description: A Helm chart for velero
     digest: f7f9ac7c42dc4aad5434b56fc2bf293abd53e319f73f126be965b8627ed6ace7
     home: https://github.com/heptio/velero
@@ -3870,11 +3893,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-2.2.5.tgz
+    - https://vespian.github.io/charts/staging/velero-2.2.5.tgz
     version: 2.2.5
   - apiVersion: v1
     appVersion: 1.0.1
-    created: 2020-04-14T10:27:07.939337797Z
+    created: "2020-04-14T15:29:10.925898538+02:00"
     description: A Helm chart for velero
     digest: 1373abbd685dfa45d60b8bd579e24e94221f4cca18d8e5a59688bff0d076bf36
     home: https://github.com/heptio/velero
@@ -3893,11 +3916,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-2.2.4.tgz
+    - https://vespian.github.io/charts/staging/velero-2.2.4.tgz
     version: 2.2.4
   - apiVersion: v1
     appVersion: 1.0.1
-    created: 2020-04-14T10:27:07.93868809Z
+    created: "2020-04-14T15:29:10.924716741+02:00"
     description: A Helm chart for velero
     digest: 5664b64db004d6da7e7904453ae0fbe806232fa9208eb30742f88b7ac26bdd25
     home: https://github.com/heptio/velero
@@ -3916,11 +3939,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-2.2.3.tgz
+    - https://vespian.github.io/charts/staging/velero-2.2.3.tgz
     version: 2.2.3
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2020-04-14T10:27:07.938027367Z
+    created: "2020-04-14T15:29:10.923477486+02:00"
     description: A Helm chart for velero
     digest: 6535cdc66856ed7eb74b30fdcecba995f9701b89a04a9da28fd4830d9171c5f9
     home: https://github.com/heptio/velero
@@ -3939,11 +3962,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-2.2.2.tgz
+    - https://vespian.github.io/charts/staging/velero-2.2.2.tgz
     version: 2.2.2
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2020-04-14T10:27:07.935538445Z
+    created: "2020-04-14T15:29:10.920248366+02:00"
     description: A Helm chart for velero
     digest: 064ba88232436c98bf435ac9202792907149e0226532c86f97c29f953e2a1136
     home: https://github.com/heptio/velero
@@ -3962,11 +3985,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-2.2.1.tgz
+    - https://vespian.github.io/charts/staging/velero-2.2.1.tgz
     version: 2.2.1
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2020-04-14T10:27:07.934887711Z
+    created: "2020-04-14T15:29:10.919031102+02:00"
     description: A Helm chart for velero
     digest: c7222c0d16638eca14deed9c38c877931a9857e12c817d3db9feafff2f90a7bb
     home: https://github.com/heptio/velero
@@ -3985,11 +4008,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-2.2.0.tgz
+    - https://vespian.github.io/charts/staging/velero-2.2.0.tgz
     version: 2.2.0
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2020-04-14T10:27:07.93423978Z
+    created: "2020-04-14T15:29:10.917591931+02:00"
     description: A Helm chart for velero
     digest: 94f0397a43ecac7e621c242e6fb8c61f5c322d6bbd9fd1413e17fe24956f33e1
     home: https://github.com/heptio/velero
@@ -4008,11 +4031,11 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-2.1.3.tgz
+    - https://vespian.github.io/charts/staging/velero-2.1.3.tgz
     version: 2.1.3
   - apiVersion: v1
     appVersion: 1.0.0
-    created: 2020-04-14T10:27:07.933602123Z
+    created: "2020-04-14T15:29:10.916879965+02:00"
     description: A Helm chart for velero
     digest: fab1defd2987463b4be58a2d90e8f7dabbcc444e9d9fe393b7aa1b232c1b426c
     home: https://github.com/heptio/velero
@@ -4031,6 +4054,6 @@ entries:
     - https://github.com/heptio/velero
     tillerVersion: '>=2.10.0'
     urls:
-    - https://mesosphere.github.io/charts/staging/velero-2.1.2.tgz
+    - https://vespian.github.io/charts/staging/velero-2.1.2.tgz
     version: 2.1.2
-generated: 2020-04-14T10:27:07.399331287Z
+generated: "2020-04-14T15:29:10.209123801+02:00"
